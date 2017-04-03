@@ -3,9 +3,8 @@
 Repozitorij z gradivi pri predmetu APPR v študijskem letu 2016/17
 
 ## Tematika
-
-Izbrali si boste temo, s katero se bo vaš projekt ukvarjal. Tukaj boste
-napisali, kje ste dobili podatke, ter kakšen je vaš cilj.
+Avtor: Jaka Munda
+Tema: Avtomobilizem v evropi.
 
 ## Program
 
