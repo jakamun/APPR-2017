@@ -1,14 +1,14 @@
 # Analiza podatkov s programom R, 2016/17
 
-Avtor: Jaka MUnda
+Avtor: Jaka Munda
 
 Repozitorij z gradivi pri predmetu APPR v študijskem letu 2016/17
 
 ## Tematika
 
-Pri projektu bom obraval značilnosti avtomobilov in motorjev v Evropi in kako so se te spreminjale skozi čas. Prav tako bom pogledal kako se je spreminjala razširjenost avtomobilov in motorjev v Evropi.
+Pri projektu bom obravnaval značilnosti avtomobilov in motorjev v Evropi in kako so se te spreminjale skozi čas. Prav tako bom pogledal kako se je spreminjala razširjenost avtomobilov in motorjev v Evropi.
 
-Vire sem črpal s eurostata:
+Vire sem črpal z eurostata:
 
 - http://ec.europa.eu/eurostat
 
