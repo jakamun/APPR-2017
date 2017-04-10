@@ -13,8 +13,6 @@ Podatke sem črpal večinoma z eurostata:
 - http://ec.europa.eu/eurostat
 - http://carsalesbase.com/european-car-sales-data/
 
-Podatke pa imam v obliki CSV in HTML. 
-
 Podatke bom predstavil v tabelah, za vsako značilnost avtomobilov bom pripravil svojo tabelo. Tabele bodo takšne da bodo v vrsticah države in v stolpcih leta. Naredil bom še tabele v katerih bodo predstavljeni podatki kako se je spreminjala razširjenost avtomobilov. To bom pogledal glede na nove registracije, za kar bom pipravil tabelo v kateri bodo v vrsticah države in stolpcih leta, in glede na število prodanih avtomobilov posameznih znamk, za to pa bom pripravil svojo tabelo v kateri bodo v stolpcih leta in v vrsticah znamke.
 
 V projektu želim ugotoviti, v katerem obdobju se je zgodila največja rast avtomobilizma v Evropi ter probati napovedati kakšna bo ta rast v prihodnjih letih. Prav tako bom probal ugotoviti kakšne značilnosti na avtomobilih so najbol razširjene, in kakšne značilnosti bodo v prihodnosti najbol razširjene.
