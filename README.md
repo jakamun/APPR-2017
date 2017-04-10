@@ -8,7 +8,7 @@ Repozitorij z gradivi pri predmetu APPR v študijskem letu 2016/17
 
 Pri projektu bom obravnaval značilnosti avtomobilov v Evropi in kako so se te spreminjale skozi čas. Prav tako bom pogledal kako se je spreminjala razširjenost avtomobilov in katere so bile ter katere so najbol razširjene znamke v Evropi. 
 
-Vire sem črpal z eurostata:
+Podatke sem črpal večinoma z eurostata:
 
 - http://ec.europa.eu/eurostat
 - http://carsalesbase.com/european-car-sales-data/
