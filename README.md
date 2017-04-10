@@ -1,10 +1,22 @@
 # Analiza podatkov s programom R, 2016/17
 
+Avtor: Jaka MUnda
+
 Repozitorij z gradivi pri predmetu APPR v študijskem letu 2016/17
 
 ## Tematika
-Avtor: Jaka Munda
-Tema: Avtomobilizem v evropi.
+
+Pri projektu bom obraval značilnosti avtomobilov in motorjev v Evropi in kako so se te spreminjale skozi čas. Prav tako bom pogledal kako se je spreminjala razširjenost avtomobilov in motorjev v Evropi.
+
+Vire sem črpal s eurostata:
+
+- http://ec.europa.eu/eurostat
+
+Podatke pa imam v obliki CSV in HTML. 
+
+Podatke bom predstavil v tabelah, za vsako značilnost avtomobilov oziroma motorjev bom pripravil svojo tabelo. Prav tako bom ločil tabele v katerih bodo podatki o avtomobilih in motorjih. Naredil bom še tabele v katerih bodo predstavljeni podatki o novih registracijah. Tabele bodo takšne da bodo v vrsticah države in v stolpcih leta.
+
+V projektu želim ugotoviti, v katerem obdobju se je zgodila največja rast avtomobilizma in moto rizma v Evropi ter probati napovedati kakšna bo ta rast v prihodnjih letih. Prav tako bom ugotovil katere so najpomembnejše vrste goriva, in katere bodo v prihodnosti.
 
 ## Program
 
