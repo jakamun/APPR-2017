@@ -490,36 +490,49 @@ uvozi.volvo <- function() {
 ##CSV datoteke sem uredil, še preden sem ugotovil da bi bilo koristno narediti funkcije
 
 uvozi.teza <- function() {
-  teza <- read.csv("teza.csv",locale = locale(encoding = "Windows-1250"))
+  teza <- read.csv("teza.csv",locale = locale(encoding = "cp1250"))
+  teza <- teza %>% filter(Vrednost != ":")
   return(teza)
 }
 
 uvozi.starost <- function() {
-  starost <- read.csv("starost.csv",locale = locale(encoding = "Windows-1250"))
+  starost <- read.csv("starost.csv",locale = locale(encoding = "cp1250"))
+  starost <- starost %>% filter(Število != ":")
   return(starost)
 }
 
 uvozi.goriva <- function() {
-  goriva <- read.csv("vrste_goriva.csv",locale = locale(encoding = "Windows-1250"))
-  return(goriva)
+  gorivo <- read.csv("vrste_goriva.csv",locale = locale(encoding = "cp1250"))
+  gorivo <- gorivo %>% filter(Število != ":")
+  return(gorivo)
 }
 
 uvozi.emisije <- function() {
-  emisije <- read.csv("emisije_novih_avtomobilov.csv",locale = locale(encoding = "Windows-1250"))
-  return(emisije)
+  emisija <- read.csv("emisije_novih_avtomobilov.csv",locale = locale(encoding = "cp1250"))
+  emisija <- emisija %>% filter(Gram.CO2.na.km != ":")
+  return(emisija)
 }
 
 uvozi.registracije <- function() {
-  registracije <- read.csv("nove_registracije_glede_na_tezo.csv",locale = locale(encoding = "Windows-1250"))
+  registracije <- read.csv("nove_registracije_glede_na_tezo.csv",locale = locale(encoding = "cp1250"))
+  registracije <- registracije %>% filter(Vrednost != ":")
   return(registracije)
 }
 
 uvozi.koliko.ga.ne.more.imet <- function() {
-  tabela <- read.csv("koliko_ljudi_si_ne_more_privoscit_avta.csv",locale = locale(encoding = "Windows-1250"))
+  tabela <- read.csv("koliko_ljudi_si_ne_more_privoscit_avta.csv",locale = locale(encoding = "cp1250"))
+  tabela <- tabela %>% filter(Procenti != ":")
+  tabela <- tabela %>% filter(Družine != "One adult 65 years or over" , Družine != "One adult younger than 65 years"
+                              , Družine != "Two adults younger than 65 years", Družine != "Two adults, at least one aged 65 years or over"
+                              , Družine != "Single person with dependent children", Družine != "Two adults with one dependent child",
+                              Družine != "Two adults with two dependent children", Družine != "Two adults with three or more dependent children",
+                              Družine != "Three or more adults with dependent children")
   return(tabela)
 }
 
 uvozi.st.na.1000 <- function() {
-  tabela <- read.csv("st_avtov_na_1000prebivalcev.csv",locale = locale(encoding = "Windows-1250"))
+  tabela <- read.csv("st_avtov_na_1000_prebivalcev.csv",locale = locale(encoding = "cp1250"))
+  tabela <- tabela %>% select(Država = GEO,Leto = TIME, Vrednost = Value)
+  tabela <- tabela %>% filter(Vrednost != ":")
   return(tabela)
 }
