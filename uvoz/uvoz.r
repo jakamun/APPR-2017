@@ -5,16 +5,19 @@ library(gsubfn)
 library(readr)
 library(dplyr)
 
+
 uvozi.alfa <- function() {
   link <- "http://carsalesbase.com/european-car-sales-data/alfa-romeo/"
   stran <- html_session(link) %>% read_html()
   tabela1 <- stran %>% html_nodes(xpath="//table[@class='model-table']") %>%
     .[[2]] %>% html_table(dec = ",")
-  colnames(tabela1) <- c("Leto", "Št.prodanih.Alfa.Romeov","Delež.na.trgu(%)")
+  colnames(tabela1) <- c("Leto", "Št.prodanih","Delež.na.trgu(%)")
   tabela1 <- tabela1[-c(1),]
+  tabela1$Znamka <- rep(c("Alfa Romeo"),length(tabela1$Leto))
   tabela1 <- tabela1[order(tabela1$Leto),]
+  tabela1 <- tabela1[c(4,1,2,3)]
   sl <- locale("sl", decimal_mark = ",", grouping_mark = ".")
-  for (col in c("Leto", "Št.prodanih.Alfa.Romeov","Delež.na.trgu(%)")) {
+  for (col in c("Leto", "Št.prodanih","Delež.na.trgu(%)")) {
     tabela1[[col]] <- parse_number(tabela1[[col]], na = "-", locale = sl)
   }
   return(tabela1)
@@ -26,11 +29,13 @@ uvozi.aston <- function() {
   stran <- html_session(link) %>% read_html()
   tabela1 <- stran %>% html_nodes(xpath="//table[@class='model-table']") %>%
     .[[2]] %>% html_table(dec = ",")
-  colnames(tabela1) <- c("Leto", "Št.prodanih.Aston.Martinov","Delež.na.trgu(%)")
+  colnames(tabela1) <- c("Leto", "Št.prodanih","Delež.na.trgu(%)")
   tabela1 <- tabela1[-c(1),]
+  tabela1$Znamka <- rep(c("Aston Martin"),length(tabela1$Leto))
   tabela1 <- tabela1[order(tabela1$Leto),]
+  tabela1 <- tabela1[c(4,1,2,3)]
   sl <- locale("sl", decimal_mark = ",", grouping_mark = ".")
-  for (col in c("Leto", "Št.prodanih.Aston.Martinov","Delež.na.trgu(%)")) {
+  for (col in c("Leto", "Št.prodanih","Delež.na.trgu(%)")) {
     tabela1[[col]] <- parse_number(tabela1[[col]], na = "-", locale = sl)
   }
   return(tabela1)
@@ -42,11 +47,13 @@ uvozi.audi <- function() {
   stran <- html_session(link) %>% read_html()
   tabela1 <- stran %>% html_nodes(xpath="//table[@class='model-table']") %>%
     .[[2]] %>% html_table(dec = ",")
-  colnames(tabela1) <- c("Leto", "Št.prodanih.Audijev","Delež.na.trgu(%)")
+  colnames(tabela1) <- c("Leto", "Št.prodanih","Delež.na.trgu(%)")
   tabela1 <- tabela1[-c(1),]
+  tabela1$Znamka <- rep(c("Audi"),length(tabela1$Leto))
   tabela1 <- tabela1[order(tabela1$Leto),]
+  tabela1 <- tabela1[c(4,1,2,3)]
   sl <- locale("sl", decimal_mark = ",", grouping_mark = ".")
-  for (col in c("Leto", "Št.prodanih.Audijev","Delež.na.trgu(%)")) {
+  for (col in c("Leto", "Št.prodanih","Delež.na.trgu(%)")) {
     tabela1[[col]] <- parse_number(tabela1[[col]], na = "-", locale = sl)
   }
   return(tabela1)
@@ -57,11 +64,13 @@ uvozi.bmw <- function() {
   stran <- html_session(link) %>% read_html()
   tabela1 <- stran %>% html_nodes(xpath="//table[@class='model-table']") %>%
     .[[2]] %>% html_table(dec = ",")
-  colnames(tabela1) <- c("Leto", "Št.prodanih.Bmw","Delež.na.trgu(%)")
+  colnames(tabela1) <- c("Leto", "Št.prodanih","Delež.na.trgu(%)")
   tabela1 <- tabela1[-c(1),]
+  tabela1$Znamka <- rep(c("BMW"),length(tabela1$Leto))
   tabela1 <- tabela1[order(tabela1$Leto),]
+  tabela1 <- tabela1[c(4,1,2,3)]
   sl <- locale("sl", decimal_mark = ",", grouping_mark = ".")
-  for (col in c("Leto", "Št.prodanih.Bmw","Delež.na.trgu(%)")) {
+  for (col in c("Leto", "Št.prodanih","Delež.na.trgu(%)")) {
     tabela1[[col]] <- parse_number(tabela1[[col]], na = "-", locale = sl)
   }
   return(tabela1)
@@ -72,11 +81,13 @@ uvozi.citroen <- function() {
   stran <- html_session(link) %>% read_html()
   tabela1 <- stran %>% html_nodes(xpath="//table[@class='model-table']") %>%
     .[[2]] %>% html_table(dec = ",")
-  colnames(tabela1) <- c("Leto", "Št.prodanih.Citroenov","Delež.na.trgu(%)")
+  colnames(tabela1) <- c("Leto", "Št.prodanih","Delež.na.trgu(%)")
   tabela1 <- tabela1[-c(1),]
+  tabela1$Znamka <- rep(c("Citroen"),length(tabela1$Leto))
   tabela1 <- tabela1[order(tabela1$Leto),]
+  tabela1 <- tabela1[c(4,1,2,3)]
   sl <- locale("sl", decimal_mark = ",", grouping_mark = ".")
-  for (col in c("Leto", "Št.prodanih.Citroenov","Delež.na.trgu(%)")) {
+  for (col in c("Leto", "Št.prodanih","Delež.na.trgu(%)")) {
     tabela1[[col]] <- parse_number(tabela1[[col]], na = "-", locale = sl)
   }
   return(tabela1)
@@ -87,11 +98,13 @@ uvozi.dacia <- function() {
   stran <- html_session(link) %>% read_html()
   tabela1 <- stran %>% html_nodes(xpath="//table[@class='model-table']") %>%
     .[[2]] %>% html_table(dec = ",")
-  colnames(tabela1) <- c("Leto", "Št.prodanih.Dacij","Delež.na.trgu(%)")
+  colnames(tabela1) <- c("Leto", "Št.prodanih","Delež.na.trgu(%)")
   tabela1 <- tabela1[-c(1),]
+  tabela1$Znamka <- rep(c("Dacia"),length(tabela1$Leto))
   tabela1 <- tabela1[order(tabela1$Leto),]
+  tabela1 <- tabela1[c(4,1,2,3)]
   sl <- locale("sl", decimal_mark = ",", grouping_mark = ".")
-  for (col in c("Leto", "Št.prodanih.Dacij","Delež.na.trgu(%)")) {
+  for (col in c("Leto", "Št.prodanih","Delež.na.trgu(%)")) {
     tabela1[[col]] <- parse_number(tabela1[[col]], na = "-", locale = sl)
   }
   return(tabela1)
@@ -102,11 +115,13 @@ uvozi.ferrari <- function() {
   stran <- html_session(link) %>% read_html()
   tabela1 <- stran %>% html_nodes(xpath="//table[@class='model-table']") %>%
     .[[2]] %>% html_table(dec = ",")
-  colnames(tabela1) <- c("Leto", "Št.prodanih.Ferrarijev","Delež.na.trgu(%)")
+  colnames(tabela1) <- c("Leto", "Št.prodanih","Delež.na.trgu(%)")
   tabela1 <- tabela1[-c(1),]
+  tabela1$Znamka <- rep(c("Ferrari"),length(tabela1$Leto))
   tabela1 <- tabela1[order(tabela1$Leto),]
+  tabela1 <- tabela1[c(4,1,2,3)]
   sl <- locale("sl", decimal_mark = ",", grouping_mark = ".")
-  for (col in c("Leto", "Št.prodanih.Ferrarijev","Delež.na.trgu(%)")) {
+  for (col in c("Leto", "Št.prodanih","Delež.na.trgu(%)")) {
     tabela1[[col]] <- parse_number(tabela1[[col]], na = "-", locale = sl)
   }
   return(tabela1)
@@ -117,11 +132,13 @@ uvozi.fiat <- function() {
   stran <- html_session(link) %>% read_html()
   tabela1 <- stran %>% html_nodes(xpath="//table[@class='model-table']") %>%
     .[[2]] %>% html_table(dec = ",")
-  colnames(tabela1) <- c("Leto", "Št.prodanih.Fiatov","Delež.na.trgu(%)")
+  colnames(tabela1) <- c("Leto", "Št.prodanih","Delež.na.trgu(%)")
   tabela1 <- tabela1[-c(1),]
+  tabela1$Znamka <- rep(c("Fiat"),length(tabela1$Leto))
   tabela1 <- tabela1[order(tabela1$Leto),]
+  tabela1 <- tabela1[c(4,1,2,3)]
   sl <- locale("sl", decimal_mark = ",", grouping_mark = ".")
-  for (col in c("Leto", "Št.prodanih.Fiatov","Delež.na.trgu(%)")) {
+  for (col in c("Leto", "Št.prodanih","Delež.na.trgu(%)")) {
     tabela1[[col]] <- parse_number(tabela1[[col]], na = "-", locale = sl)
   }
   return(tabela1)
@@ -132,11 +149,13 @@ uvozi.ford <- function() {
   stran <- html_session(link) %>% read_html()
   tabela1 <- stran %>% html_nodes(xpath="//table[@class='model-table']") %>%
     .[[2]] %>% html_table(dec = ",")
-  colnames(tabela1) <- c("Leto", "Št.prodanih.Fordov","Delež.na.trgu(%)")
+  colnames(tabela1) <- c("Leto", "Št.prodanih","Delež.na.trgu(%)")
   tabela1 <- tabela1[-c(1),]
+  tabela1$Znamka <- rep(c("Ford"),length(tabela1$Leto))
   tabela1 <- tabela1[order(tabela1$Leto),]
+  tabela1 <- tabela1[c(4,1,2,3)]
   sl <- locale("sl", decimal_mark = ",", grouping_mark = ".")
-  for (col in c("Leto", "Št.prodanih.Fordov","Delež.na.trgu(%)")) {
+  for (col in c("Leto", "Št.prodanih","Delež.na.trgu(%)")) {
     tabela1[[col]] <- parse_number(tabela1[[col]], na = "-", locale = sl)
   }
   return(tabela1)
@@ -147,11 +166,13 @@ uvozi.honda <- function() {
   stran <- html_session(link) %>% read_html()
   tabela1 <- stran %>% html_nodes(xpath="//table[@class='model-table']") %>%
     .[[2]] %>% html_table(dec = ",")
-  colnames(tabela1) <- c("Leto", "Št.prodanih.Hond","Delež.na.trgu(%)")
+  colnames(tabela1) <- c("Leto", "Št.prodanih","Delež.na.trgu(%)")
   tabela1 <- tabela1[-c(1),]
+  tabela1$Znamka <- rep(c("Honda"),length(tabela1$Leto))
   tabela1 <- tabela1[order(tabela1$Leto),]
+  tabela1 <- tabela1[c(4,1,2,3)]
   sl <- locale("sl", decimal_mark = ",", grouping_mark = ".")
-  for (col in c("Leto", "Št.prodanih.Hond","Delež.na.trgu(%)")) {
+  for (col in c("Leto", "Št.prodanih","Delež.na.trgu(%)")) {
     tabela1[[col]] <- parse_number(tabela1[[col]], na = "-", locale = sl)
   }
   return(tabela1)
@@ -162,11 +183,13 @@ uvozi.hyundai <- function() {
   stran <- html_session(link) %>% read_html()
   tabela1 <- stran %>% html_nodes(xpath="//table[@class='model-table']") %>%
     .[[2]] %>% html_table(dec = ",")
-  colnames(tabela1) <- c("Leto", "Št.prodanih.Hyundajev","Delež.na.trgu(%)")
+  colnames(tabela1) <- c("Leto", "Št.prodanih","Delež.na.trgu(%)")
   tabela1 <- tabela1[-c(1),]
+  tabela1$Znamka <- rep(c("Hyundai"),length(tabela1$Leto))
   tabela1 <- tabela1[order(tabela1$Leto),]
+  tabela1 <- tabela1[c(4,1,2,3)]
   sl <- locale("sl", decimal_mark = ",", grouping_mark = ".")
-  for (col in c("Leto", "Št.prodanih.Hyundajev","Delež.na.trgu(%)")) {
+  for (col in c("Leto", "Št.prodanih","Delež.na.trgu(%)")) {
     tabela1[[col]] <- parse_number(tabela1[[col]], na = "-", locale = sl)
   }
   return(tabela1)
@@ -177,11 +200,13 @@ uvozi.jaguar <- function() {
   stran <- html_session(link) %>% read_html()
   tabela1 <- stran %>% html_nodes(xpath="//table[@class='model-table']") %>%
     .[[2]] %>% html_table(dec = ",")
-  colnames(tabela1) <- c("Leto", "Št.prodanih.Jaguarjev","Delež.na.trgu(%)")
+  colnames(tabela1) <- c("Leto", "Št.prodanih","Delež.na.trgu(%)")
   tabela1 <- tabela1[-c(1),]
+  tabela1$Znamka <- rep(c("Jaguar"),length(tabela1$Leto))
   tabela1 <- tabela1[order(tabela1$Leto),]
+  tabela1 <- tabela1[c(4,1,2,3)]
   sl <- locale("sl", decimal_mark = ",", grouping_mark = ".")
-  for (col in c("Leto", "Št.prodanih.Jaguarjev","Delež.na.trgu(%)")) {
+  for (col in c("Leto", "Št.prodanih","Delež.na.trgu(%)")) {
     tabela1[[col]] <- parse_number(tabela1[[col]], na = "-", locale = sl)
   }
   return(tabela1)
@@ -192,11 +217,13 @@ uvozi.jeep <- function() {
   stran <- html_session(link) %>% read_html()
   tabela1 <- stran %>% html_nodes(xpath="//table[@class='model-table']") %>%
     .[[2]] %>% html_table(dec = ",")
-  colnames(tabela1) <- c("Leto", "Št.prodanih.Jeepov","Delež.na.trgu(%)")
+  colnames(tabela1) <- c("Leto", "Št.prodanih","Delež.na.trgu(%)")
   tabela1 <- tabela1[-c(1),]
+  tabela1$Znamka <- rep(c("Jeep"),length(tabela1$Leto))
   tabela1 <- tabela1[order(tabela1$Leto),]
+  tabela1 <- tabela1[c(4,1,2,3)]
   sl <- locale("sl", decimal_mark = ",", grouping_mark = ".")
-  for (col in c("Leto", "Št.prodanih.Jeepov","Delež.na.trgu(%)")) {
+  for (col in c("Leto", "Št.prodanih","Delež.na.trgu(%)")) {
     tabela1[[col]] <- parse_number(tabela1[[col]], na = "-", locale = sl)
   }
   return(tabela1)
@@ -207,11 +234,13 @@ uvozi.kia <- function() {
   stran <- html_session(link) %>% read_html()
   tabela1 <- stran %>% html_nodes(xpath="//table[@class='model-table']") %>%
     .[[2]] %>% html_table(dec = ",")
-  colnames(tabela1) <- c("Leto", "Št.prodanih.Kii","Delež.na.trgu(%)")
+  colnames(tabela1) <- c("Leto", "Št.prodanih","Delež.na.trgu(%)")
   tabela1 <- tabela1[-c(1),]
+  tabela1$Znamka <- rep(c("Kia"),length(tabela1$Leto))
   tabela1 <- tabela1[order(tabela1$Leto),]
+  tabela1 <- tabela1[c(4,1,2,3)]
   sl <- locale("sl", decimal_mark = ",", grouping_mark = ".")
-  for (col in c("Leto", "Št.prodanih.Kii","Delež.na.trgu(%)")) {
+  for (col in c("Leto", "Št.prodanih","Delež.na.trgu(%)")) {
     tabela1[[col]] <- parse_number(tabela1[[col]], na = "-", locale = sl)
   }
   return(tabela1)
@@ -224,7 +253,9 @@ uvozi.lancia <- function() {
     .[[2]] %>% html_table(dec = ",")
   colnames(tabela1) <- c("Leto", "Št.prodanih","Delež.na.trgu(%)")
   tabela1 <- tabela1[-c(1),]
+  tabela1$Znamka <- rep(c("Lancia"),length(tabela1$Leto))
   tabela1 <- tabela1[order(tabela1$Leto),]
+  tabela1 <- tabela1[c(4,1,2,3)]
   sl <- locale("sl", decimal_mark = ",", grouping_mark = ".")
   for (col in c("Leto", "Št.prodanih","Delež.na.trgu(%)")) {
     tabela1[[col]] <- parse_number(tabela1[[col]], na = "-", locale = sl)
@@ -239,7 +270,9 @@ uvozi.rover <- function() {
     .[[2]] %>% html_table(dec = ",")
   colnames(tabela1) <- c("Leto", "Št.prodanih","Delež.na.trgu(%)")
   tabela1 <- tabela1[-c(1),]
+  tabela1$Znamka <- rep(c("Land Rover"),length(tabela1$Leto))
   tabela1 <- tabela1[order(tabela1$Leto),]
+  tabela1 <- tabela1[c(4,1,2,3)]
   sl <- locale("sl", decimal_mark = ",", grouping_mark = ".")
   for (col in c("Leto", "Št.prodanih","Delež.na.trgu(%)")) {
     tabela1[[col]] <- parse_number(tabela1[[col]], na = "-", locale = sl)
@@ -252,11 +285,13 @@ uvozi.lexus <- function() {
   stran <- html_session(link) %>% read_html()
   tabela1 <- stran %>% html_nodes(xpath="//table[@class='model-table']") %>%
     .[[2]] %>% html_table(dec = ",")
-  colnames(tabela1) <- c("Leto", "Št.prodanih.Leksusov","Delež.na.trgu(%)")
+  colnames(tabela1) <- c("Leto", "Št.prodanih","Delež.na.trgu(%)")
   tabela1 <- tabela1[-c(1),]
+  tabela1$Znamka <- rep(c("Lexus"),length(tabela1$Leto))
   tabela1 <- tabela1[order(tabela1$Leto),]
+  tabela1 <- tabela1[c(4,1,2,3)]
   sl <- locale("sl", decimal_mark = ",", grouping_mark = ".")
-  for (col in c("Leto", "Št.prodanih.Leksusov","Delež.na.trgu(%)")) {
+  for (col in c("Leto", "Št.prodanih","Delež.na.trgu(%)")) {
     tabela1[[col]] <- parse_number(tabela1[[col]], na = "-", locale = sl)
   }
   return(tabela1)
@@ -267,11 +302,13 @@ uvozi.mazda <- function() {
   stran <- html_session(link) %>% read_html()
   tabela1 <- stran %>% html_nodes(xpath="//table[@class='model-table']") %>%
     .[[2]] %>% html_table(dec = ",")
-  colnames(tabela1) <- c("Leto", "Št.prodanih.Mazd","Delež.na.trgu(%)")
+  colnames(tabela1) <- c("Leto", "Št.prodanih","Delež.na.trgu(%)")
   tabela1 <- tabela1[-c(1),]
+  tabela1$Znamka <- rep(c("Mazda"),length(tabela1$Leto))
   tabela1 <- tabela1[order(tabela1$Leto),]
+  tabela1 <- tabela1[c(4,1,2,3)]
   sl <- locale("sl", decimal_mark = ",", grouping_mark = ".")
-  for (col in c("Leto", "Št.prodanih.Mazd","Delež.na.trgu(%)")) {
+  for (col in c("Leto", "Št.prodanih","Delež.na.trgu(%)")) {
     tabela1[[col]] <- parse_number(tabela1[[col]], na = "-", locale = sl)
   }
   return(tabela1)
@@ -282,11 +319,13 @@ uvozi.mercedes <- function() {
   stran <- html_session(link) %>% read_html()
   tabela1 <- stran %>% html_nodes(xpath="//table[@class='model-table']") %>%
     .[[2]] %>% html_table(dec = ",")
-  colnames(tabela1) <- c("Leto", "Št.prodanih.Mercedesov","Delež.na.trgu(%)")
+  colnames(tabela1) <- c("Leto", "Št.prodanih","Delež.na.trgu(%)")
   tabela1 <- tabela1[-c(1),]
+  tabela1$Znamka <- rep(c("Mercedes Benz"),length(tabela1$Leto))
   tabela1 <- tabela1[order(tabela1$Leto),]
+  tabela1 <- tabela1[c(4,1,2,3)]
   sl <- locale("sl", decimal_mark = ",", grouping_mark = ".")
-  for (col in c("Leto", "Št.prodanih.Mercedesov","Delež.na.trgu(%)")) {
+  for (col in c("Leto", "Št.prodanih","Delež.na.trgu(%)")) {
     tabela1[[col]] <- parse_number(tabela1[[col]], na = "-", locale = sl)
   }
   return(tabela1)
@@ -297,11 +336,13 @@ uvozi.mini <- function() {
   stran <- html_session(link) %>% read_html()
   tabela1 <- stran %>% html_nodes(xpath="//table[@class='model-table']") %>%
     .[[2]] %>% html_table(dec = ",")
-  colnames(tabela1) <- c("Leto", "Št.prodanih.Minijev","Delež.na.trgu(%)")
+  colnames(tabela1) <- c("Leto", "Št.prodanih","Delež.na.trgu(%)")
   tabela1 <- tabela1[-c(1),]
+  tabela1$Znamka <- rep(c("Mini"),length(tabela1$Leto))
   tabela1 <- tabela1[order(tabela1$Leto),]
+  tabela1 <- tabela1[c(4,1,2,3)]
   sl <- locale("sl", decimal_mark = ",", grouping_mark = ".")
-  for (col in c("Leto", "Št.prodanih.Minijev","Delež.na.trgu(%)")) {
+  for (col in c("Leto", "Št.prodanih","Delež.na.trgu(%)")) {
     tabela1[[col]] <- parse_number(tabela1[[col]], na = "-", locale = sl)
   }
   return(tabela1)
@@ -312,11 +353,13 @@ uvozi.nissan <- function() {
   stran <- html_session(link) %>% read_html()
   tabela1 <- stran %>% html_nodes(xpath="//table[@class='model-table']") %>%
     .[[2]] %>% html_table(dec = ",")
-  colnames(tabela1) <- c("Leto", "Št.prodanih.Nissanov","Delež.na.trgu(%)")
+  colnames(tabela1) <- c("Leto", "Št.prodanih","Delež.na.trgu(%)")
   tabela1 <- tabela1[-c(1),]
+  tabela1$Znamka <- rep(c("Nissan"),length(tabela1$Leto))
   tabela1 <- tabela1[order(tabela1$Leto),]
+  tabela1 <- tabela1[c(4,1,2,3)]
   sl <- locale("sl", decimal_mark = ",", grouping_mark = ".")
-  for (col in c("Leto", "Št.prodanih.Nissanov","Delež.na.trgu(%)")) {
+  for (col in c("Leto", "Št.prodanih","Delež.na.trgu(%)")) {
     tabela1[[col]] <- parse_number(tabela1[[col]], na = "-", locale = sl)
   }
   return(tabela1)
@@ -327,11 +370,13 @@ uvozi.opel <- function() {
   stran <- html_session(link) %>% read_html()
   tabela1 <- stran %>% html_nodes(xpath="//table[@class='model-table']") %>%
     .[[2]] %>% html_table(dec = ",")
-  colnames(tabela1) <- c("Leto", "Št.prodanih.Oplov","Delež.na.trgu(%)")
+  colnames(tabela1) <- c("Leto", "Št.prodanih","Delež.na.trgu(%)")
   tabela1 <- tabela1[-c(1),]
+  tabela1$Znamka <- rep(c("Opel"),length(tabela1$Leto))
   tabela1 <- tabela1[order(tabela1$Leto),]
+  tabela1 <- tabela1[c(4,1,2,3)]
   sl <- locale("sl", decimal_mark = ",", grouping_mark = ".")
-  for (col in c("Leto", "Št.prodanih.Oplov","Delež.na.trgu(%)")) {
+  for (col in c("Leto", "Št.prodanih","Delež.na.trgu(%)")) {
     tabela1[[col]] <- parse_number(tabela1[[col]], na = "-", locale = sl)
   }
   return(tabela1)
@@ -342,11 +387,13 @@ uvozi.peugeot <- function() {
   stran <- html_session(link) %>% read_html()
   tabela1 <- stran %>% html_nodes(xpath="//table[@class='model-table']") %>%
     .[[2]] %>% html_table(dec = ",")
-  colnames(tabela1) <- c("Leto", "Št.prodanih.Peugeojev","Delež.na.trgu(%)")
+  colnames(tabela1) <- c("Leto", "Št.prodanih","Delež.na.trgu(%)")
   tabela1 <- tabela1[-c(1),]
+  tabela1$Znamka <- rep(c("Peugeot"),length(tabela1$Leto))
   tabela1 <- tabela1[order(tabela1$Leto),]
+  tabela1 <- tabela1[c(4,1,2,3)]
   sl <- locale("sl", decimal_mark = ",", grouping_mark = ".")
-  for (col in c("Leto", "Št.prodanih.Peugeojev","Delež.na.trgu(%)")) {
+  for (col in c("Leto", "Št.prodanih","Delež.na.trgu(%)")) {
     tabela1[[col]] <- parse_number(tabela1[[col]], na = "-", locale = sl)
   }
   return(tabela1)
@@ -357,11 +404,13 @@ uvozi.porsche <- function() {
   stran <- html_session(link) %>% read_html()
   tabela1 <- stran %>% html_nodes(xpath="//table[@class='model-table']") %>%
     .[[2]] %>% html_table(dec = ",")
-  colnames(tabela1) <- c("Leto", "Št.prodanih.Porschejev","Delež.na.trgu(%)")
+  colnames(tabela1) <- c("Leto", "Št.prodanih","Delež.na.trgu(%)")
   tabela1 <- tabela1[-c(1),]
+  tabela1$Znamka <- rep(c("Porsche"),length(tabela1$Leto))
   tabela1 <- tabela1[order(tabela1$Leto),]
+  tabela1 <- tabela1[c(4,1,2,3)]
   sl <- locale("sl", decimal_mark = ",", grouping_mark = ".")
-  for (col in c("Leto", "Št.prodanih.Porschejev","Delež.na.trgu(%)")) {
+  for (col in c("Leto", "Št.prodanih","Delež.na.trgu(%)")) {
     tabela1[[col]] <- parse_number(tabela1[[col]], na = "-", locale = sl)
   }
   return(tabela1)
@@ -374,7 +423,9 @@ uvozi.renault <- function() {
     .[[2]] %>% html_table(dec = ",")
   colnames(tabela1) <- c("Leto", "Št.prodanih","Delež.na.trgu(%)")
   tabela1 <- tabela1[-c(1),]
+  tabela1$Znamka <- rep(c("Renault"),length(tabela1$Leto))
   tabela1 <- tabela1[order(tabela1$Leto),]
+  tabela1 <- tabela1[c(4,1,2,3)]
   sl <- locale("sl", decimal_mark = ",", grouping_mark = ".")
   for (col in c("Leto", "Št.prodanih","Delež.na.trgu(%)")) {
     tabela1[[col]] <- parse_number(tabela1[[col]], na = "-", locale = sl)
@@ -387,11 +438,13 @@ uvozi.seat <- function() {
   stran <- html_session(link) %>% read_html()
   tabela1 <- stran %>% html_nodes(xpath="//table[@class='model-table']") %>%
     .[[2]] %>% html_table(dec = ",")
-  colnames(tabela1) <- c("Leto", "Št.prodanih.Seatov","Delež.na.trgu(%)")
+  colnames(tabela1) <- c("Leto", "Št.prodanih","Delež.na.trgu(%)")
   tabela1 <- tabela1[-c(1),]
+  tabela1$Znamka <- rep(c("Seat"),length(tabela1$Leto))
   tabela1 <- tabela1[order(tabela1$Leto),]
+  tabela1 <- tabela1[c(4,1,2,3)]
   sl <- locale("sl", decimal_mark = ",", grouping_mark = ".")
-  for (col in c("Leto", "Št.prodanih.Seatov","Delež.na.trgu(%)")) {
+  for (col in c("Leto", "Št.prodanih","Delež.na.trgu(%)")) {
     tabela1[[col]] <- parse_number(tabela1[[col]], na = "-", locale = sl)
   }
   return(tabela1)
@@ -402,11 +455,13 @@ uvozi.skoda <- function() {
   stran <- html_session(link) %>% read_html()
   tabela1 <- stran %>% html_nodes(xpath="//table[@class='model-table']") %>%
     .[[2]] %>% html_table(dec = ",")
-  colnames(tabela1) <- c("Leto", "Št.prodanih.Škod","Delež.na.trgu(%)")
+  colnames(tabela1) <- c("Leto", "Št.prodanih","Delež.na.trgu(%)")
   tabela1 <- tabela1[-c(1),]
+  tabela1$Znamka <- rep(c("Škoda"),length(tabela1$Leto))
   tabela1 <- tabela1[order(tabela1$Leto),]
+  tabela1 <- tabela1[c(4,1,2,3)]
   sl <- locale("sl", decimal_mark = ",", grouping_mark = ".")
-  for (col in c("Leto", "Št.prodanih.Škod","Delež.na.trgu(%)")) {
+  for (col in c("Leto", "Št.prodanih","Delež.na.trgu(%)")) {
     tabela1[[col]] <- parse_number(tabela1[[col]], na = "-", locale = sl)
   }
   return(tabela1)
@@ -417,11 +472,13 @@ uvozi.subaru <- function() {
   stran <- html_session(link) %>% read_html()
   tabela1 <- stran %>% html_nodes(xpath="//table[@class='model-table']") %>%
     .[[2]] %>% html_table(dec = ",")
-  colnames(tabela1) <- c("Leto", "Št.prodanih.Subarujev","Delež.na.trgu(%)")
+  colnames(tabela1) <- c("Leto", "Št.prodanih","Delež.na.trgu(%)")
   tabela1 <- tabela1[-c(1),]
+  tabela1$Znamka <- rep(c("Subaru"),length(tabela1$Leto))
   tabela1 <- tabela1[order(tabela1$Leto),]
+  tabela1 <- tabela1[c(4,1,2,3)]
   sl <- locale("sl", decimal_mark = ",", grouping_mark = ".")
-  for (col in c("Leto", "Št.prodanih.Subarujev","Delež.na.trgu(%)")) {
+  for (col in c("Leto", "Št.prodanih","Delež.na.trgu(%)")) {
     tabela1[[col]] <- parse_number(tabela1[[col]], na = "-", locale = sl)
   }
   return(tabela1)
@@ -432,11 +489,13 @@ uvozi.suzuki <- function() {
   stran <- html_session(link) %>% read_html()
   tabela1 <- stran %>% html_nodes(xpath="//table[@class='model-table']") %>%
     .[[2]] %>% html_table(dec = ",")
-  colnames(tabela1) <- c("Leto", "Št.prodanih.Suzukijev","Delež.na.trgu(%)")
+  colnames(tabela1) <- c("Leto", "Št.prodanih","Delež.na.trgu(%)")
   tabela1 <- tabela1[-c(1),]
+  tabela1$Znamka <- rep(c("Suzuki"),length(tabela1$Leto))
   tabela1 <- tabela1[order(tabela1$Leto),]
+  tabela1 <- tabela1[c(4,1,2,3)]
   sl <- locale("sl", decimal_mark = ",", grouping_mark = ".")
-  for (col in c("Leto", "Št.prodanih.Suzukijev","Delež.na.trgu(%)")) {
+  for (col in c("Leto", "Št.prodanih","Delež.na.trgu(%)")) {
     tabela1[[col]] <- parse_number(tabela1[[col]], na = "-", locale = sl)
   }
   return(tabela1)
@@ -447,11 +506,13 @@ uvozi.toyota <- function() {
   stran <- html_session(link) %>% read_html()
   tabela1 <- stran %>% html_nodes(xpath="//table[@class='model-table']") %>%
     .[[2]] %>% html_table(dec = ",")
-  colnames(tabela1) <- c("Leto", "Št.prodanih.Toyot","Delež.na.trgu(%)")
+  colnames(tabela1) <- c("Leto", "Št.prodanih","Delež.na.trgu(%)")
   tabela1 <- tabela1[-c(1),]
+  tabela1$Znamka <- rep(c("Toyota"),length(tabela1$Leto))
   tabela1 <- tabela1[order(tabela1$Leto),]
+  tabela1 <- tabela1[c(4,1,2,3)]
   sl <- locale("sl", decimal_mark = ",", grouping_mark = ".")
-  for (col in c("Leto", "Št.prodanih.Toyot","Delež.na.trgu(%)")) {
+  for (col in c("Leto", "Št.prodanih","Delež.na.trgu(%)")) {
     tabela1[[col]] <- parse_number(tabela1[[col]], na = "-", locale = sl)
   }
   return(tabela1)
@@ -462,11 +523,13 @@ uvozi.volkswagen <- function() {
   stran <- html_session(link) %>% read_html()
   tabela1 <- stran %>% html_nodes(xpath="//table[@class='model-table']") %>%
     .[[2]] %>% html_table(dec = ",")
-  colnames(tabela1) <- c("Leto", "Št.prodanih.Volkswagnov","Delež.na.trgu(%)")
+  colnames(tabela1) <- c("Leto", "Št.prodanih","Delež.na.trgu(%)")
   tabela1 <- tabela1[-c(1),]
+  tabela1$Znamka <- rep(c("Volkswagen"),length(tabela1$Leto))
   tabela1 <- tabela1[order(tabela1$Leto),]
+  tabela1 <- tabela1[c(4,1,2,3)]
   sl <- locale("sl", decimal_mark = ",", grouping_mark = ".")
-  for (col in c("Leto", "Št.prodanih.Volkswagnov","Delež.na.trgu(%)")) {
+  for (col in c("Leto", "Št.prodanih","Delež.na.trgu(%)")) {
     tabela1[[col]] <- parse_number(tabela1[[col]], na = "-", locale = sl)
   }
   return(tabela1)
@@ -477,15 +540,33 @@ uvozi.volvo <- function() {
   stran <- html_session(link) %>% read_html()
   tabela1 <- stran %>% html_nodes(xpath="//table[@class='model-table']") %>%
     .[[2]] %>% html_table(dec = ",")
-  colnames(tabela1) <- c("Leto", "Št.prodanih.Volvov","Delež.na.trgu(%)")
+  colnames(tabela1) <- c("Leto", "Št.prodanih","Delež.na.trgu(%)")
   tabela1 <- tabela1[-c(1),]
+  tabela1$Znamka <- rep(c("Volvo"),length(tabela1$Leto))
   tabela1 <- tabela1[order(tabela1$Leto),]
+  tabela1 <- tabela1[c(4,1,2,3)]
   sl <- locale("sl", decimal_mark = ",", grouping_mark = ".")
-  for (col in c("Leto", "Št.prodanih.Volvov","Delež.na.trgu(%)")) {
+  for (col in c("Leto", "Št.prodanih","Delež.na.trgu(%)")) {
     tabela1[[col]] <- parse_number(tabela1[[col]], na = "-", locale = sl)
   }
   return(tabela1)
 }
+
+uvozi.znamke <- function() {
+  znamke <- rbind(uvozi.alfa(), uvozi.aston(), uvozi.audi(), uvozi.bmw(), uvozi.citroen(), uvozi.dacia(),
+                  uvozi.ferrari(), uvozi.fiat(), uvozi.ford(), uvozi.honda(), uvozi.hyundai(), uvozi.jaguar(),
+                  uvozi.jeep(), uvozi.kia(), uvozi.lancia(), uvozi.lexus(), uvozi.mazda(), uvozi.mercedes(), 
+                  uvozi.mini(), uvozi.nissan(), uvozi.opel(), uvozi.peugeot(), uvozi.porsche(), uvozi.renault(),
+                  uvozi.rover(), uvozi.seat(), uvozi.skoda(), uvozi.subaru(), uvozi.suzuki(), uvozi.toyota(),
+                  uvozi.volkswagen(), uvozi.volvo())
+  znamke <- znamke %>% arrange(Leto)
+  return(znamke)
+  
+}
+
+
+
+
 
 ##CSV datoteke sem uredil, še preden sem ugotovil da bi bilo koristno narediti funkcije
 
