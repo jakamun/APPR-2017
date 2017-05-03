@@ -490,49 +490,62 @@ uvozi.volvo <- function() {
 ##CSV datoteke sem uredil, še preden sem ugotovil da bi bilo koristno narediti funkcije
 
 uvozi.teza <- function() {
-  teza <- read.csv("teza.csv",locale = locale(encoding = "cp1250"))
+  teza <- read_csv("teza.csv",locale = locale(encoding = "Windows-1250"))
+  stolpci <- c("Država", "Leto","Teza","Vrednost")
+  colnames(teza) <- stolpci
   teza <- teza %>% filter(Vrednost != ":")
   return(teza)
 }
 
 uvozi.starost <- function() {
-  starost <- read.csv("starost.csv",locale = locale(encoding = "cp1250"))
-  starost <- starost %>% filter(Število != ":")
+  starost <- read_csv("starost.csv",locale = locale(encoding = "Windows-1250"))
+  stolpci <- c("Država", "Leto","Starost","Vrednost")
+  colnames(starost) <- stolpci
+  starost <- starost %>% filter(Vrednost != ":")
   return(starost)
 }
 
 uvozi.goriva <- function() {
-  gorivo <- read.csv("vrste_goriva.csv",locale = locale(encoding = "cp1250"))
-  gorivo <- gorivo %>% filter(Število != ":")
+  gorivo <- read_csv("vrste_goriva.csv",locale = locale(encoding = "Windows-1250"))
+  stolpci <- c("Država", "Leto","Vrsta.goriva","Vrednost")
+  colnames(gorivo) <- stolpci
+  gorivo <- gorivo %>% filter(Vrednost != ":")
   return(gorivo)
 }
 
 uvozi.emisije <- function() {
-  emisija <- read.csv("emisije_novih_avtomobilov.csv",locale = locale(encoding = "cp1250"))
+  emisija <- read_csv("emisije_novih_avtomobilov.csv",locale = locale(encoding = "Windows-1250"))
+  stolpci <- c("Država", "Leto","Gram.CO2.na.km")
+  colnames(emisija) <- stolpci
   emisija <- emisija %>% filter(Gram.CO2.na.km != ":")
   return(emisija)
 }
 
 uvozi.registracije <- function() {
-  registracije <- read.csv("nove_registracije_glede_na_tezo.csv",locale = locale(encoding = "cp1250"))
+  registracije <- read_csv("nove_registracije_glede_na_tezo.csv",locale = locale(encoding = "Windows-1250"))
+  stolpci <- c("Država", "Leto","Teza.registriranega","Vrednost")
+  colnames(registracije) <- stolpci
   registracije <- registracije %>% filter(Vrednost != ":")
   return(registracije)
 }
 
 uvozi.koliko.ga.ne.more.imet <- function() {
-  tabela <- read.csv("koliko_ljudi_si_ne_more_privoscit_avta.csv",locale = locale(encoding = "cp1250"))
+  tabela <- read_csv("koliko_ljudi_si_ne_more_privoscit_avta.csv",locale = locale(encoding = "Windows-1250"))
+  tabela[c(1)] <- NULL
+  stolpci <- c("Država","Leto","Druzina","Procenti")
+  colnames(tabela) <- stolpci
   tabela <- tabela %>% filter(Procenti != ":")
-  tabela <- tabela %>% filter(Družine != "One adult 65 years or over" , Družine != "One adult younger than 65 years"
-                              , Družine != "Two adults younger than 65 years", Družine != "Two adults, at least one aged 65 years or over"
-                              , Družine != "Single person with dependent children", Družine != "Two adults with one dependent child",
-                              Družine != "Two adults with two dependent children", Družine != "Two adults with three or more dependent children",
-                              Družine != "Three or more adults with dependent children")
+  tabela <- tabela %>% filter(Druzina != "One adult 65 years or over" , Druzina != "One adult younger than 65 years"
+                              , Druzina != "Two adults younger than 65 years", Druzina != "Two adults, at least one aged 65 years or over"
+                              , Druzina != "Single person with dependent children", Druzina != "Two adults with one dependent child",
+                              Druzina != "Two adults with two dependent children", Druzina != "Two adults with three or more dependent children",
+                              Druzina != "Three or more adults with dependent children")
   return(tabela)
 }
 
 uvozi.st.na.1000 <- function() {
-  tabela <- read.csv("st_avtov_na_1000_prebivalcev.csv",locale = locale(encoding = "cp1250"))
-  tabela <- tabela %>% select(Država = GEO,Leto = TIME, Vrednost = Value)
-  tabela <- tabela %>% filter(Vrednost != ":")
+  tabela <- read_csv("st_avtov_na_1000_prebivalcev.csv",locale = locale(encoding = "Windows-1250"))
+  tabela <- tabela %>% select(Država = GEO,Leto = TIME,St.avtov.na.1000.ljudi = Value)
+  tabela <- tabela %>% filter(St.avtov.na.1000.ljudi != ":")
   return(tabela)
 }
