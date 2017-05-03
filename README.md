@@ -13,7 +13,41 @@ Podatke sem črpal večinoma z eurostata:
 - http://ec.europa.eu/eurostat
 - http://carsalesbase.com/european-car-sales-data/
 
-Podatke bom predstavil v tabelah, za značilnosti avtomobilov bom pripravil svojo tabelo, v katero bom dal, v prvi stolpec države, v drugi stolpec leta in potem še za vsako značilnost nov stolpec. Naredil bom še tabele, v katerih bodo predstavljeni podatki, kako se je spreminjala razširjenost avtomobilov. To bom pogledal glede na nove registracije, za kar bom pipravil tabelo, v kateri bodo v prvem stolpcu države v drugem leta in v tretjem število novih registracij, in glede na število prodanih avtomobilov posameznih znamk, za to pa bom pripravil svojo tabelo, v kateri bodo v prvem stolpcu znamke avtomobilov, v drugem leta in v tretjem število prodanih avtomobilov v posameznem letu.
+Tabele:
+
+- Nove registracije glede na težo:
+1.stolpec: Države
+2.stolpec: Leto
+3.stolpec: Teža
+4.stolpec: Število novih registracij
+
+- Teža avtomobilov:
+1.stolpec: Države
+2.stolpec: Leto
+3.stolpec: Teža
+4.stolpec: Število
+
+- Starost avtomobilov:
+1.stolpec: Države
+2.stolpec: Leto
+3.stolpec: Starost
+4.stolpec: Število
+
+- Emisije CO2 novih avtomobilov:
+1.stolpec: Države
+2.stolpec: Leto
+3.stolpec: Gram CO2 na km
+
+- Koliko ljudi si ne more privoščit avta:
+1.stolpec: Države
+2.stolpec: Leto
+3.stolpec: Vrsta družine
+4.stolpec: Število
+
+- Število avtomobilov na 1000 prebivalcev:
+1.stolpec: Države
+2.stolpec: Leto
+3.stolpec: Število
 
 V projektu želim ugotoviti, v katerem obdobju se je zgodila največja rast avtomobilizma v Evropi ter poskusiti napovedati kakšna bo ta rast v prihodnjih letih. Prav tako bom poskusil ugotoviti kakšne značilnosti na avtomobilih so najbolj razširjene, in kakšne značilnosti bodo v prihodnosti najbolj razširjene.
 
