@@ -21,7 +21,11 @@ source("lib/libraries.r", encoding = "UTF-8")
 
 # Izbira teme
 
-Za vzorec bomo prikazali nekaj podatkov o slovenskih občinah.
+Za temo sem si izbral Vtomobilizem v Evropi. Pri projektu bom obravnaval značilnosti avtomobilov v Evropi in kako so se te spreminjale skozi čas. Prav tako bom pogledal kako se je spreminjala razširjenost avtomobilov in katere so bile ter katere so najbol razširjene znamke v Evropi.
+
+Viri:
+- http://ec.europa.eu/eurostat
+- http://carsalesbase.com/european-car-sales-data/
 
 ***
 
