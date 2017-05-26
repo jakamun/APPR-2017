@@ -582,6 +582,7 @@ uvozi.teza <- function() {
   stolpci <- c("Drzava", "Leto","Teza","Vrednost")
   colnames(teza) <- stolpci
   teza <- teza %>% filter(Vrednost != ":")
+  teza <- teza %>% filter(Leto >= "2000")
   return(teza)
 }
 teza <- uvozi.teza()
@@ -617,10 +618,12 @@ uvozi.emisije <- function() {
 emisije <- uvozi.emisije()
 
 uvozi.registracije <- function() {
-  registracije <- read_csv("podatki/nove_registracije_glede_na_tezo.csv",locale = locale(encoding = "Windows-1250"))
-  stolpci <- c("Drzava", "Leto","Teza.registriranega","Vrednost")
+  registracije <- read_csv("podatki/registracije.csv",locale = locale(encoding = "Windows-1250"))
+  stolpci <- c("Drzava", "Leto","Teza.registriranega","Stevilo")
   colnames(registracije) <- stolpci
-  registracije <- registracije %>% filter(Vrednost != ":")
+  registracije <- registracije %>% filter(Stevilo != ":", 
+                                          Drzava != "Former Yugoslav Republic of Macedonia, the")
+  registracije <- registracije %>% select(Drzava, Leto, Stevilo)
   return(registracije)
 }
 registracije <- uvozi.registracije()

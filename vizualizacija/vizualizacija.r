@@ -2,9 +2,10 @@
 library(dplyr)
 library(gsubfn)
 library(ggplot2)
-
+library(ggvis)
 
 # Grafi
+
 
 
 
