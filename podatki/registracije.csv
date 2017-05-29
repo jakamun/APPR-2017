@@ -1,1592 +1,736 @@
-"DRZAVA","LETO","TEŽA","Vrednost"
-"Belgium",1990,"Total","478,219"
-"Bulgaria",1990,"Total","46,433"
-"Denmark",1990,"Total","80,837"
-"Germany (until 1990 former territory of the FRG)",1990,"Total","3,040,783"
-"Ireland",1990,"Total","83,420"
-"Greece",1990,"Total","132,487"
-"Spain",1990,"Total","1,007,014"
-"France",1990,"Total","2,309,130"
-"Croatia",1990,"Total","66,214"
-"Italy",1990,"Total","2,395,909"
-"Cyprus",1990,"Total","19,532"
-"Luxembourg",1990,"Total","38,648"
-"Hungary",1990,"Total","143,073"
-"Malta",1990,"Total","8,218"
-"Netherlands",1990,"Total","502,671"
-"Austria",1990,"Total","288,636"
-"Poland",1990,"Total","358,055"
-"Portugal",1990,"Total","212,348"
-"Finland",1990,"Total","139,742"
-"Sweden",1990,"Total","235,192"
-"United Kingdom",1990,"Total","2,075,982"
-"Norway",1990,"Total","63,668"
-"Switzerland",1990,"Total","322,974"
-"Former Yugoslav Republic of Macedonia, the",1990,"Total","13,809"
-"Turkey",1990,"Total","218,059"
-"Belgium",1991,"Total","46,766"
-"Bulgaria",1991,"Total","31,093"
-"Denmark",1991,"Total","83,828"
-"Ireland",1991,"Total","68,533"
-"Greece",1991,"Total","176,862"
-"Spain",1991,"Total","914,061"
-"France",1991,"Total","2,031,274"
-"Croatia",1991,"Total","85,813"
-"Italy",1991,"Total","2,217,257"
-"Cyprus",1991,"Total","17,681"
-"Luxembourg",1991,"Total","44,055"
-"Netherlands",1991,"Total","490,407"
-"Austria",1991,"Total","303,723"
-"Poland",1991,"Total","734,885"
-"Portugal",1991,"Total","231,176"
-"Finland",1991,"Total","92,979"
-"Sweden",1991,"Total","191,755"
-"United Kingdom",1991,"Total","1,665,664"
-"Norway",1991,"Total","55,111"
-"Switzerland",1991,"Total","310,193"
-"Former Yugoslav Republic of Macedonia, the",1991,"Total","13,069"
-"Belgium",1992,"Total","485,697"
-"Bulgaria",1992,"Total","44,186"
-"Denmark",1992,"Total","84,170"
-"Germany (until 1990 former territory of the FRG)",1992,"Total","3,929,558"
-"Estonia",1992,"Total","36,284"
-"Ireland",1992,"Total","67,861"
-"Greece",1992,"Total","206,652"
-"Spain",1992,"Total","1,008,454"
-"France",1992,"Total","2,105,700"
-"Croatia",1992,"Total","31,928"
-"Italy",1992,"Total","2,341,402"
-"Cyprus",1992,"Total","18,178"
-"Luxembourg",1992,"Total","37,133"
-"Hungary",1992,"Total","45,122"
-"Netherlands",1992,"Total","492,130"
-"Austria",1992,"Total","320,094"
-"Poland",1992,"Total","471,026"
-"Portugal",1992,"Total","280,035"
-"Slovenia",1992,"Total","31,191"
-"Finland",1992,"Total","68,891"
-"Sweden",1992,"Total","157,295"
-"United Kingdom",1992,"Total","1,663,846"
-"Norway",1992,"Total","61,648"
-"Switzerland",1992,"Total","286,289"
-"Former Yugoslav Republic of Macedonia, the",1992,"Total","4,802"
-"Turkey",1992,"Total","317,044"
-"Belgium",1993,"Total","392,530"
-"Bulgaria",1993,"Total","83,713"
-"Denmark",1993,"Total","82,205"
-"Germany (until 1990 former territory of the FRG)",1993,"Total","3,194,204"
-"Estonia",1993,"Total","53,168"
-"Ireland",1993,"Total","60,792"
-"Greece",1993,"Total","155,646"
-"Spain",1993,"Total","775,461"
-"France",1993,"Total","1,721,222"
-"Croatia",1993,"Total","59,337"
-"Italy",1993,"Total","1,645,162"
-"Cyprus",1993,"Total","12,968"
-"Luxembourg",1993,"Total","30,679"
-"Hungary",1993,"Total","63,058"
-"Netherlands",1993,"Total","391,934"
-"Austria",1993,"Total","285,162"
-"Poland",1993,"Total","477,353"
-"Portugal",1993,"Total","248,462"
-"Slovenia",1993,"Total","59,878"
-"Slovakia",1993,"Total","41,694"
-"Finland",1993,"Total","56,003"
-"Sweden",1993,"Total","127,738"
-"United Kingdom",1993,"Total","1,845,714"
-"Iceland",1993,"Total","5,662"
-"Norway",1993,"Total","63,988"
-"Switzerland",1993,"Total","256,917"
-"Former Yugoslav Republic of Macedonia, the",1993,"Total","8,361"
-"Turkey",1993,"Total","441,534"
-"Belgium",1994,"Total","403,981"
-"Bulgaria",1994,"Total","76,529"
-"Denmark",1994,"Total","139,251"
-"Germany (until 1990 former territory of the FRG)",1994,"Total","3,209,224"
-"Estonia",1994,"Total","51,217"
-"Ireland",1994,"Total","77,773"
-"Greece",1994,"Total","118,088"
-"Spain",1994,"Total","938,971"
-"France",1994,"Total","1,972,919"
-"Croatia",1994,"Total","58,499"
-"Italy",1994,"Total","1,610,561"
-"Cyprus",1994,"Total","13,358"
-"Luxembourg",1994,"Total","30,124"
-"Hungary",1994,"Total","45,833"
-"Netherlands",1994,"Total","433,913"
-"Austria",1994,"Total","273,663"
-"Poland",1994,"Total","486,600"
-"Portugal",1994,"Total","243,254"
-"Slovenia",1994,"Total","47,217"
-"Finland",1994,"Total","67,434"
-"Sweden",1994,"Total","159,578"
-"United Kingdom",1994,"Total","1,982,929"
-"Iceland",1994,"Total","5,570"
-"Norway",1994,"Total","91,336"
-"Switzerland",1994,"Total","265,892"
-"Former Yugoslav Republic of Macedonia, the",1994,"Total","10,152"
-"Turkey",1994,"Total","244,289"
-"Belgium",1995,"Total","370,165"
-"Bulgaria",1995,"Total","56,702"
-"Denmark",1995,"Total","135,058"
-"Germany (until 1990 former territory of the FRG)",1995,"Total","3,314,061"
-"Estonia",1995,"Total","44,471"
-"Ireland",1995,"Total","82,730"
-"Greece",1995,"Total","133,757"
-"Spain",1995,"Total","870,497"
-"France",1995,"Total","1,930,504"
-"Croatia",1995,"Total","67,576"
-"Italy",1995,"Total","1,766,101"
-"Cyprus",1995,"Total","17,938"
-"Latvia",1995,"Total","49,322"
-"Lithuania",1995,"Total","154,850"
-"Hungary",1995,"Total","55,970"
-"Malta",1995,"Total","10,102"
-"Austria",1995,"Total","279,610"
-"Poland",1995,"Total","450,769"
-"Portugal",1995,"Total","228,812"
-"Slovenia",1995,"Total","61,700"
-"Finland",1995,"Total","80,145"
-"Sweden",1995,"Total","175,061"
-"United Kingdom",1995,"Total","1,938,100"
-"Iceland",1995,"Total","6,931"
-"Liechtenstein",1995,"Total","2"
-"Norway",1995,"Total","97,880"
-"Switzerland",1995,"Total","267,975"
-"Former Yugoslav Republic of Macedonia, the",1995,"Total","14,268"
-"Turkey",1995,"Total","200,658"
-"Belgium",1996,"Total","408,285"
-"Bulgaria",1996,"Total","69,500"
-"Denmark",1996,"Total","142,175"
-"Germany (until 1990 former territory of the FRG)",1996,"Total","3,496,320"
-"Estonia",1996,"Total","35,621"
-"Ireland",1996,"Total","109,333"
-"Greece",1996,"Total","141,589"
-"Spain",1996,"Total","968,363"
-"France",1996,"Total","2,132,091"
-"Croatia",1996,"Total","73,584"
-"Italy",1996,"Total","1,843,366"
-"Cyprus",1996,"Total","20,402"
-"Latvia",1996,"Total","52,112"
-"Lithuania",1996,"Total","122,142"
-"Hungary",1996,"Total","62,660"
-"Malta",1996,"Total","10,624"
-"Austria",1996,"Total","307,671"
-"Poland",1996,"Total","627,349"
-"Portugal",1996,"Total","268,542"
-"Slovenia",1996,"Total","59,358"
-"Slovakia",1996,"Total","107,576"
-"Finland",1996,"Total","96,163"
-"Finland",1996,"Less than 1 000 kg","9,233"
-"Finland",1996,"From 1 000 to 1 249 kg","49,278"
-"Finland",1996,"From 1 250 to 1 499 kg","31,395"
-"Finland",1996,"1 500 kg or over","5,919"
-"Sweden",1996,"Total","200,154"
-"United Kingdom",1996,"Total","2,105,914"
-"Iceland",1996,"Total","9,515"
-"Liechtenstein",1996,"Total","2"
-"Norway",1996,"Total","146,835"
-"Switzerland",1996,"Total","272,214"
-"Former Yugoslav Republic of Macedonia, the",1996,"Total","13,270"
-"Turkey",1996,"Total","219,230"
-"Bulgaria",1997,"Total","28,166"
-"Denmark",1997,"Total","152,869"
-"Germany (until 1990 former territory of the FRG)",1997,"Total","3,528,179"
-"Estonia",1997,"Total","9,448"
-"Ireland",1997,"Total","125,818"
-"Greece",1997,"Total","166,778"
-"Spain",1997,"Total","1,091,190"
-"France",1997,"Total","1,713,030"
-"Croatia",1997,"Total","109,144"
-"Italy",1997,"Total","2,389,892"
-"Cyprus",1997,"Total","20,290"
-"Latvia",1997,"Total","71,513"
-"Lithuania",1997,"Total","173,057"
-"Hungary",1997,"Total","70,827"
-"Malta",1997,"Total","9,226"
-"Netherlands",1997,"Total","478,318"
-"Austria",1997,"Total","275,001"
-"Poland",1997,"Total","722,245"
-"Portugal",1997,"Total","287,730"
-"Romania",1997,"Total","125,142"
-"Slovenia",1997,"Total","64,357"
-"Slovakia",1997,"Total","85,551"
-"Finland",1997,"Total","104,963"
-"Finland",1997,"Less than 1 000 kg","8,656"
-"Finland",1997,"From 1 000 to 1 249 kg","48,956"
-"Finland",1997,"From 1 250 to 1 499 kg","36,881"
-"Finland",1997,"1 500 kg or over","10,012"
-"Sweden",1997,"Total","258,944"
-"United Kingdom",1997,"Total","2,250,870"
-"Iceland",1997,"Total","11,734"
-"Liechtenstein",1997,"Total","2"
-"Norway",1997,"Total","154,654"
-"Switzerland",1997,"Total","270,625"
-"Former Yugoslav Republic of Macedonia, the",1997,"Total","8,911"
-"Turkey",1997,"Total","299,108"
-"Belgium",1998,"Total","463,724"
-"Bulgaria",1998,"Total","70,797"
-"Denmark",1998,"Total","162,708"
-"Germany (until 1990 former territory of the FRG)",1998,"Total","3,735,987"
-"Estonia",1998,"Total","8,400"
-"Ireland",1998,"Total","138,538"
-"Greece",1998,"Total","183,657"
-"Spain",1998,"Total","1,282,970"
-"France",1998,"Total","1,943,553"
-"France",1998,"Less than 1 000 kg","699,634"
-"France",1998,"From 1 000 to 1 249 kg","681,762"
-"France",1998,"From 1 250 to 1 499 kg","423,755"
-"France",1998,"1 500 kg or over","138,402"
-"Croatia",1998,"Total","85,893"
-"Italy",1998,"Total","2,437,718"
-"Cyprus",1998,"Total","24,856"
-"Latvia",1998,"Total","57,363"
-"Lithuania",1998,"Total","147,105"
-"Luxembourg",1998,"Total","36,353"
-"Hungary",1998,"Total","101,328"
-"Malta",1998,"Total","10,750"
-"Netherlands",1998,"Total","543,110"
-"Austria",1998,"Total","295,865"
-"Poland",1998,"Total","557,783"
-"Portugal",1998,"Total","323,981"
-"Romania",1998,"Total","105,986"
-"Slovenia",1998,"Total","71,022"
-"Slovakia",1998,"Total","76,007"
-"Finland",1998,"Total","126,386"
-"Finland",1998,"Less than 1 000 kg","9,780"
-"Finland",1998,"From 1 000 to 1 249 kg","52,965"
-"Finland",1998,"From 1 250 to 1 499 kg","51,615"
-"Finland",1998,"1 500 kg or over","11,386"
-"Sweden",1998,"Total","286,671"
-"United Kingdom",1998,"Total","2,362,589"
-"Iceland",1998,"Total","15,064"
-"Liechtenstein",1998,"Total","2"
-"Norway",1998,"Total","141,090"
-"Switzerland",1998,"Total","295,165"
-"Former Yugoslav Republic of Macedonia, the",1998,"Total","8,676"
-"Turkey",1998,"Total","271,843"
-"Belgium",1999,"Total","504,203"
-"Bulgaria",1999,"Total","103,459"
-"Denmark",1999,"Total","144,259"
-"Germany (until 1990 former territory of the FRG)",1999,"Total","3,802,176"
-"Estonia",1999,"Total","6,864"
-"Ireland",1999,"Total","170,322"
-"Greece",1999,"Total","268,716"
-"Spain",1999,"Total","1,502,531"
-"France",1999,"Total","2,148,423"
-"France",1999,"Less than 1 000 kg","717,887"
-"France",1999,"From 1 000 to 1 249 kg","743,891"
-"France",1999,"From 1 250 to 1 499 kg","524,282"
-"France",1999,"1 500 kg or over","162,363"
-"Croatia",1999,"Total","89,846"
-"Italy",1999,"Total","2,312,309"
-"Cyprus",1999,"Total","20,133"
-"Latvia",1999,"Total","45,861"
-"Lithuania",1999,"Total","142,069"
-"Luxembourg",1999,"Total","40,989"
-"Hungary",1999,"Total","126,085"
-"Hungary",1999,"Less than 1 000 kg","59,009"
-"Hungary",1999,"From 1 000 to 1 249 kg","54,260"
-"Hungary",1999,"From 1 250 to 1 499 kg","10,449"
-"Hungary",1999,"1 500 kg or over","2,369"
-"Malta",1999,"Total","13,341"
-"Netherlands",1999,"Total","611,776"
-"Austria",1999,"Total","314,182"
-"Austria",1999,"Less than 1 000 kg","46,919"
-"Austria",1999,"From 1 000 to 1 249 kg","100,460"
-"Austria",1999,"From 1 250 to 1 499 kg","123,374"
-"Austria",1999,"1 500 kg or over","43,429"
-"Poland",1999,"Total","599,250"
-"Portugal",1999,"Total","351,575"
-"Romania",1999,"Total","90,047"
-"Slovenia",1999,"Total","81,869"
-"Slovakia",1999,"Total","58,152"
-"Finland",1999,"Total","137,017"
-"Finland",1999,"Less than 1 000 kg","9,838"
-"Finland",1999,"From 1 000 to 1 249 kg","59,903"
-"Finland",1999,"From 1 250 to 1 499 kg","53,119"
-"Finland",1999,"1 500 kg or over","13,461"
-"Sweden",1999,"Total","327,710"
-"Sweden",1999,"Less than 1 000 kg","11,239"
-"Sweden",1999,"From 1 000 to 1 249 kg","69,247"
-"Sweden",1999,"From 1 250 to 1 499 kg","132,186"
-"Sweden",1999,"1 500 kg or over","115,019"
-"United Kingdom",1999,"Total","2,414,660"
-"Iceland",1999,"Total","17,007"
-"Iceland",1999,"Less than 1 000 kg","2,149"
-"Iceland",1999,"From 1 000 to 1 249 kg","6,769"
-"Iceland",1999,"From 1 250 to 1 499 kg","4,157"
-"Iceland",1999,"1 500 kg or over","3,932"
-"Liechtenstein",1999,"Total","2"
-"Norway",1999,"Total","123,843"
-"Switzerland",1999,"Total","314,691"
-"Former Yugoslav Republic of Macedonia, the",1999,"Total","9,840"
-"Belgium",2000,"Total","531,640"
-"Bulgaria",2000,"Total","98,185"
-"Denmark",2000,"Total","113,631"
-"Germany (until 1990 former territory of the FRG)",2000,"Total","3,378,343"
-"Estonia",2000,"Total","10,240"
-"Estonia",2000,"Less than 1 000 kg","495"
-"Estonia",2000,"From 1 000 to 1 249 kg","4,743"
-"Estonia",2000,"From 1 250 to 1 499 kg","3,395"
-"Estonia",2000,"1 500 kg or over","1,607"
-"Ireland",2000,"Total","225,269"
-"Greece",2000,"Total","302,620"
-"Spain",2000,"Total","1,467,160"
-"France",2000,"Total","2,133,884"
-"France",2000,"Less than 1 000 kg","645,293"
-"France",2000,"From 1 000 to 1 249 kg","767,057"
-"France",2000,"From 1 250 to 1 499 kg","570,015"
-"France",2000,"1 500 kg or over","151,519"
-"Croatia",2000,"Total","92,759"
-"Italy",2000,"Total","2,359,674"
-"Cyprus",2000,"Total","19,056"
-"Cyprus",2000,"Less than 1 000 kg","7,955"
-"Cyprus",2000,"From 1 000 to 1 249 kg","7,400"
-"Cyprus",2000,"From 1 250 to 1 499 kg","1,908"
-"Cyprus",2000,"1 500 kg or over","1,793"
-"Latvia",2000,"Total","35,745"
-"Latvia",2000,"Less than 1 000 kg","5,573"
-"Latvia",2000,"From 1 000 to 1 249 kg","16,839"
-"Latvia",2000,"From 1 250 to 1 499 kg","9,146"
-"Latvia",2000,"1 500 kg or over","4,187"
-"Lithuania",2000,"Total","115,808"
-"Luxembourg",2000,"Total","42,304"
-"Hungary",2000,"Total","130,323"
-"Hungary",2000,"Less than 1 000 kg","55,037"
-"Hungary",2000,"From 1 000 to 1 249 kg","58,167"
-"Hungary",2000,"From 1 250 to 1 499 kg","14,392"
-"Hungary",2000,"1 500 kg or over","2,727"
-"Malta",2000,"Total","13,055"
-"Malta",2000,"Less than 1 000 kg","30"
-"Malta",2000,"From 1 000 to 1 249 kg","1,730"
-"Malta",2000,"From 1 250 to 1 499 kg","5,769"
-"Malta",2000,"1 500 kg or over","5,527"
-"Netherlands",2000,"Total","597,623"
-"Austria",2000,"Total","309,427"
-"Austria",2000,"Less than 1 000 kg","41,570"
-"Austria",2000,"From 1 000 to 1 249 kg","93,747"
-"Austria",2000,"From 1 250 to 1 499 kg","124,112"
-"Austria",2000,"1 500 kg or over","49,998"
-"Poland",2000,"Total","519,407"
-"Portugal",2000,"Total","340,397"
-"Slovenia",2000,"Total","64,846"
-"Slovakia",2000,"Total","54,352"
-"Finland",2000,"Total","135,243"
-"Finland",2000,"Less than 1 000 kg","10,323"
-"Finland",2000,"From 1 000 to 1 249 kg","47,648"
-"Finland",2000,"From 1 250 to 1 499 kg","57,752"
-"Finland",2000,"1 500 kg or over","18,871"
-"Sweden",2000,"Total","342,965"
-"Sweden",2000,"Less than 1 000 kg","12,841"
-"Sweden",2000,"From 1 000 to 1 249 kg","66,330"
-"Sweden",2000,"From 1 250 to 1 499 kg","134,079"
-"Sweden",2000,"1 500 kg or over","129,715"
-"United Kingdom",2000,"Total","2,432,149"
-"Iceland",2000,"Total","14,769"
-"Iceland",2000,"Less than 1 000 kg","1,765"
-"Iceland",2000,"From 1 000 to 1 249 kg","5,026"
-"Iceland",2000,"From 1 250 to 1 499 kg","4,214"
-"Iceland",2000,"1 500 kg or over","3,764"
-"Liechtenstein",2000,"Total","2"
-"Liechtenstein",2000,"Less than 1 000 kg","0"
-"Liechtenstein",2000,"From 1 000 to 1 249 kg","0"
-"Liechtenstein",2000,"From 1 250 to 1 499 kg","1"
-"Liechtenstein",2000,"1 500 kg or over","1"
-"Norway",2000,"Total","126,978"
-"Switzerland",2000,"Total","314,482"
-"Former Yugoslav Republic of Macedonia, the",2000,"Total","13,763"
-"Turkey",2000,"Total","354,013"
-"Belgium",2001,"Total","499,779"
-"Bulgaria",2001,"Total","117,333"
-"Denmark",2001,"Total","96,114"
-"Germany (until 1990 former territory of the FRG)",2001,"Total","3,341,718"
-"Estonia",2001,"Total","12,822"
-"Estonia",2001,"Less than 1 000 kg","776"
-"Estonia",2001,"From 1 000 to 1 249 kg","5,454"
-"Estonia",2001,"From 1 250 to 1 499 kg","4,350"
-"Estonia",2001,"1 500 kg or over","2,242"
-"Ireland",2001,"Total","160,908"
-"Greece",2001,"Total","289,943"
-"Spain",2001,"Total","1,498,899"
-"France",2001,"Total","2,254,732"
-"France",2001,"Less than 1 000 kg","589,261"
-"France",2001,"From 1 000 to 1 249 kg","754,582"
-"France",2001,"From 1 250 to 1 499 kg","736,334"
-"France",2001,"1 500 kg or over","174,555"
-"Croatia",2001,"Total","108,484"
-"Italy",2001,"Total","2,379,980"
-"Cyprus",2001,"Total","24,533"
-"Cyprus",2001,"Less than 1 000 kg","10,338"
-"Cyprus",2001,"From 1 000 to 1 249 kg","9,164"
-"Cyprus",2001,"From 1 250 to 1 499 kg","2,656"
-"Cyprus",2001,"1 500 kg or over","2,375"
-"Latvia",2001,"Total","37,850"
-"Latvia",2001,"Less than 1 000 kg","4,531"
-"Latvia",2001,"From 1 000 to 1 249 kg","15,601"
-"Latvia",2001,"From 1 250 to 1 499 kg","11,204"
-"Latvia",2001,"1 500 kg or over","6,514"
-"Lithuania",2001,"Total","71,328"
-"Luxembourg",2001,"Total","43,164"
-"Hungary",2001,"Total","137,771"
-"Hungary",2001,"Less than 1 000 kg","57,972"
-"Hungary",2001,"From 1 000 to 1 249 kg","58,628"
-"Hungary",2001,"From 1 250 to 1 499 kg","17,242"
-"Hungary",2001,"1 500 kg or over","3,929"
-"Malta",2001,"Total","10,295"
-"Malta",2001,"Less than 1 000 kg","11"
-"Malta",2001,"From 1 000 to 1 249 kg","2,072"
-"Malta",2001,"From 1 250 to 1 499 kg","3,504"
-"Malta",2001,"1 500 kg or over","4,708"
-"Netherlands",2001,"Total","530,287"
-"Austria",2001,"Total","293,528"
-"Austria",2001,"Less than 1 000 kg","36,971"
-"Austria",2001,"From 1 000 to 1 249 kg","80,522"
-"Austria",2001,"From 1 250 to 1 499 kg","122,473"
-"Austria",2001,"1 500 kg or over","53,562"
-"Poland",2001,"Total","450,095"
-"Portugal",2001,"Total","302,763"
-"Slovenia",2001,"Total","55,432"
-"Slovakia",2001,"Total","66,759"
-"Finland",2001,"Total","109,911"
-"Finland",2001,"Less than 1 000 kg","7,229"
-"Finland",2001,"From 1 000 to 1 249 kg","35,023"
-"Finland",2001,"From 1 250 to 1 499 kg","47,287"
-"Finland",2001,"1 500 kg or over","19,888"
-"Sweden",2001,"Total","280,280"
-"Sweden",2001,"Less than 1 000 kg","6,341"
-"Sweden",2001,"From 1 000 to 1 249 kg","48,639"
-"Sweden",2001,"From 1 250 to 1 499 kg","99,412"
-"Sweden",2001,"1 500 kg or over","125,888"
-"United Kingdom",2001,"Total","2,663,288"
-"Iceland",2001,"Total","7,669"
-"Iceland",2001,"Less than 1 000 kg","792"
-"Iceland",2001,"From 1 000 to 1 249 kg","2,133"
-"Iceland",2001,"From 1 250 to 1 499 kg","2,803"
-"Iceland",2001,"1 500 kg or over","1,941"
-"Liechtenstein",2001,"Total","2"
-"Liechtenstein",2001,"Less than 1 000 kg","0"
-"Liechtenstein",2001,"From 1 000 to 1 249 kg","0"
-"Liechtenstein",2001,"From 1 250 to 1 499 kg","1"
-"Liechtenstein",2001,"1 500 kg or over","1"
-"Switzerland",2001,"Total","314,580"
-"Former Yugoslav Republic of Macedonia, the",2001,"Total","4,755"
-"Turkey",2001,"Total","117,196"
-"Belgium",2002,"Total","472,830"
-"Bulgaria",2002,"Total","121,512"
-"Denmark",2002,"Total","111,598"
-"Germany (until 1990 former territory of the FRG)",2002,"Total","3,252,898"
-"Estonia",2002,"Total","14,701"
-"Estonia",2002,"Less than 1 000 kg","549"
-"Estonia",2002,"From 1 000 to 1 249 kg","5,363"
-"Estonia",2002,"From 1 250 to 1 499 kg","5,761"
-"Estonia",2002,"1 500 kg or over","3,028"
-"Ireland",2002,"Total","150,485"
-"Greece",2002,"Total","277,567"
-"Spain",2002,"Total","1,408,426"
-"France",2002,"Total","2,145,071"
-"France",2002,"Less than 1 000 kg","503,249"
-"France",2002,"From 1 000 to 1 249 kg","680,477"
-"France",2002,"From 1 250 to 1 499 kg","772,313"
-"France",2002,"1 500 kg or over","189,032"
-"Croatia",2002,"Total","94,989"
-"Italy",2002,"Total","2,235,948"
-"Cyprus",2002,"Total","28,101"
-"Cyprus",2002,"Less than 1 000 kg","10,376"
-"Cyprus",2002,"From 1 000 to 1 249 kg","11,300"
-"Cyprus",2002,"From 1 250 to 1 499 kg","4,291"
-"Cyprus",2002,"1 500 kg or over","2,134"
-"Latvia",2002,"Total","40,335"
-"Latvia",2002,"Less than 1 000 kg","3,944"
-"Latvia",2002,"From 1 000 to 1 249 kg","16,540"
-"Latvia",2002,"From 1 250 to 1 499 kg","12,189"
-"Latvia",2002,"1 500 kg or over","7,662"
-"Lithuania",2002,"Total","93,305"
-"Lithuania",2002,"Less than 1 000 kg","19,134"
-"Lithuania",2002,"From 1 000 to 1 249 kg","41,081"
-"Lithuania",2002,"From 1 250 to 1 499 kg","23,854"
-"Lithuania",2002,"1 500 kg or over","9,236"
-"Luxembourg",2002,"Total","43,677"
-"Hungary",2002,"Total","160,238"
-"Hungary",2002,"Less than 1 000 kg","64,247"
-"Hungary",2002,"From 1 000 to 1 249 kg","70,182"
-"Hungary",2002,"From 1 250 to 1 499 kg","20,456"
-"Hungary",2002,"1 500 kg or over","5,353"
-"Malta",2002,"Total","10,267"
-"Malta",2002,"Less than 1 000 kg","44"
-"Malta",2002,"From 1 000 to 1 249 kg","2,647"
-"Malta",2002,"From 1 250 to 1 499 kg","2,744"
-"Malta",2002,"1 500 kg or over","4,832"
-"Netherlands",2002,"Total","510,744"
-"Austria",2002,"Total","279,493"
-"Austria",2002,"Less than 1 000 kg","30,707"
-"Austria",2002,"From 1 000 to 1 249 kg","75,438"
-"Austria",2002,"From 1 250 to 1 499 kg","112,971"
-"Austria",2002,"1 500 kg or over","60,377"
-"Poland",2002,"Total","421,167"
-"Poland",2002,"Less than 1 000 kg","120,628"
-"Poland",2002,"From 1 000 to 1 249 kg","183,288"
-"Poland",2002,"From 1 250 to 1 499 kg","84,443"
-"Poland",2002,"1 500 kg or over","32,808"
-"Portugal",2002,"Total","267,374"
-"Slovenia",2002,"Total","52,310"
-"Slovakia",2002,"Total","67,298"
-"Finland",2002,"Total","117,486"
-"Finland",2002,"Less than 1 000 kg","8,049"
-"Finland",2002,"From 1 000 to 1 249 kg","35,362"
-"Finland",2002,"From 1 250 to 1 499 kg","50,915"
-"Finland",2002,"1 500 kg or over","22,708"
-"Sweden",2002,"Total","281,446"
-"Sweden",2002,"Less than 1 000 kg","4,286"
-"Sweden",2002,"From 1 000 to 1 249 kg","46,496"
-"Sweden",2002,"From 1 250 to 1 499 kg","96,931"
-"Sweden",2002,"1 500 kg or over","133,733"
-"United Kingdom",2002,"Total","2,756,342"
-"Iceland",2002,"Total","7,375"
-"Iceland",2002,"Less than 1 000 kg","694"
-"Iceland",2002,"From 1 000 to 1 249 kg","1,841"
-"Iceland",2002,"From 1 250 to 1 499 kg","2,903"
-"Iceland",2002,"1 500 kg or over","1,937"
-"Liechtenstein",2002,"Total","2"
-"Liechtenstein",2002,"Less than 1 000 kg","0"
-"Liechtenstein",2002,"From 1 000 to 1 249 kg","0"
-"Liechtenstein",2002,"From 1 250 to 1 499 kg","1"
-"Liechtenstein",2002,"1 500 kg or over","1"
-"Switzerland",2002,"Total","293,034"
-"Former Yugoslav Republic of Macedonia, the",2002,"Total","32,641"
-"Turkey",2002,"Total","170,191"
-"Belgium",2003,"Total","463,173"
-"Bulgaria",2003,"Total","143,480"
-"Czech Republic",2003,"Total","144,849"
-"Germany (until 1990 former territory of the FRG)",2003,"Total","3,236,938"
-"Estonia",2003,"Total","15,824"
-"Estonia",2003,"Less than 1 000 kg","466"
-"Estonia",2003,"From 1 000 to 1 249 kg","5,103"
-"Estonia",2003,"From 1 250 to 1 499 kg","6,595"
-"Estonia",2003,"1 500 kg or over","3,660"
-"Ireland",2003,"Total","142,992"
-"Greece",2003,"Total","272,515"
-"France",2003,"Total","2,009,246"
-"France",2003,"Less than 1 000 kg","442,001"
-"France",2003,"From 1 000 to 1 249 kg","589,925"
-"France",2003,"From 1 250 to 1 499 kg","754,042"
-"France",2003,"1 500 kg or over","223,278"
-"Croatia",2003,"Total","104,399"
-"Cyprus",2003,"Total","29,961"
-"Cyprus",2003,"Less than 1 000 kg","10,019"
-"Cyprus",2003,"From 1 000 to 1 249 kg","13,026"
-"Cyprus",2003,"From 1 250 to 1 499 kg","4,907"
-"Cyprus",2003,"1 500 kg or over","2,009"
-"Latvia",2003,"Total","50,290"
-"Latvia",2003,"Less than 1 000 kg","3,875"
-"Latvia",2003,"From 1 000 to 1 249 kg","20,226"
-"Latvia",2003,"From 1 250 to 1 499 kg","16,000"
-"Latvia",2003,"1 500 kg or over","10,189"
-"Lithuania",2003,"Total","118,263"
-"Lithuania",2003,"Less than 1 000 kg","21,947"
-"Lithuania",2003,"From 1 000 to 1 249 kg","53,708"
-"Lithuania",2003,"From 1 250 to 1 499 kg","30,410"
-"Lithuania",2003,"1 500 kg or over","12,198"
-"Luxembourg",2003,"Total","43,765"
-"Hungary",2003,"Total","190,107"
-"Hungary",2003,"Less than 1 000 kg","73,880"
-"Hungary",2003,"From 1 000 to 1 249 kg","84,924"
-"Hungary",2003,"From 1 250 to 1 499 kg","24,116"
-"Hungary",2003,"1 500 kg or over","7,187"
-"Netherlands",2003,"Total","488,977"
-"Austria",2003,"Total","300,121"
-"Austria",2003,"Less than 1 000 kg","29,128"
-"Austria",2003,"From 1 000 to 1 249 kg","80,882"
-"Austria",2003,"From 1 250 to 1 499 kg","118,692"
-"Austria",2003,"1 500 kg or over","71,419"
-"Poland",2003,"Total","274,392"
-"Poland",2003,"Less than 1 000 kg","72,927"
-"Poland",2003,"From 1 000 to 1 249 kg","111,138"
-"Poland",2003,"From 1 250 to 1 499 kg","65,310"
-"Poland",2003,"1 500 kg or over","25,017"
-"Slovenia",2003,"Total","55,314"
-"Slovakia",2003,"Total","71,954"
-"Finland",2003,"Total","148,020"
-"Finland",2003,"Less than 1 000 kg","7,352"
-"Finland",2003,"From 1 000 to 1 249 kg","40,294"
-"Finland",2003,"From 1 250 to 1 499 kg","69,911"
-"Finland",2003,"1 500 kg or over","29,809"
-"Sweden",2003,"Total","293,035"
-"Sweden",2003,"Less than 1 000 kg","3,449"
-"Sweden",2003,"From 1 000 to 1 249 kg","46,250"
-"Sweden",2003,"From 1 250 to 1 499 kg","96,831"
-"Sweden",2003,"1 500 kg or over","146,505"
-"United Kingdom",2003,"Total","2,720,096"
-"Iceland",2003,"Total","10,833"
-"Iceland",2003,"Less than 1 000 kg","793"
-"Iceland",2003,"From 1 000 to 1 249 kg","2,650"
-"Iceland",2003,"From 1 250 to 1 499 kg","3,987"
-"Iceland",2003,"1 500 kg or over","3,403"
-"Liechtenstein",2003,"Total","1,770"
-"Liechtenstein",2003,"Less than 1 000 kg","60"
-"Liechtenstein",2003,"From 1 000 to 1 249 kg","360"
-"Liechtenstein",2003,"From 1 250 to 1 499 kg","480"
-"Liechtenstein",2003,"1 500 kg or over","870"
-"Switzerland",2003,"Total","269,711"
-"Turkey",2003,"Total","176,217"
-"Belgium",2004,"Total","489,346"
-"Bulgaria",2004,"Total","150,803"
-"Czech Republic",2004,"Total","123,579"
-"Germany (until 1990 former territory of the FRG)",2004,"Total","3,266,826"
-"Estonia",2004,"Total","16,514"
-"Estonia",2004,"Less than 1 000 kg","396"
-"Estonia",2004,"From 1 000 to 1 249 kg","4,687"
-"Estonia",2004,"From 1 250 to 1 499 kg","7,048"
-"Estonia",2004,"1 500 kg or over","4,383"
-"Ireland",2004,"Total","149,635"
-"France",2004,"Total","2,013,709"
-"France",2004,"Less than 1 000 kg","410,603"
-"France",2004,"From 1 000 to 1 249 kg","544,747"
-"France",2004,"From 1 250 to 1 499 kg","776,691"
-"France",2004,"1 500 kg or over","281,668"
-"Croatia",2004,"Total","99,863"
-"Cyprus",2004,"Total","43,842"
-"Latvia",2004,"Total","57,474"
-"Latvia",2004,"Less than 1 000 kg","3,374"
-"Latvia",2004,"From 1 000 to 1 249 kg","20,195"
-"Latvia",2004,"From 1 250 to 1 499 kg","19,812"
-"Latvia",2004,"1 500 kg or over","14,093"
-"Lithuania",2004,"Total","134,612"
-"Lithuania",2004,"Less than 1 000 kg","19,651"
-"Lithuania",2004,"From 1 000 to 1 249 kg","56,949"
-"Lithuania",2004,"From 1 250 to 1 499 kg","39,319"
-"Lithuania",2004,"1 500 kg or over","18,693"
-"Luxembourg",2004,"Total","48,273"
-"Hungary",2004,"Total","188,488"
-"Hungary",2004,"Less than 1 000 kg","64,739"
-"Hungary",2004,"From 1 000 to 1 249 kg","84,734"
-"Hungary",2004,"From 1 250 to 1 499 kg","29,092"
-"Hungary",2004,"1 500 kg or over","9,946"
-"Netherlands",2004,"Total","483,885"
-"Austria",2004,"Total","311,292"
-"Austria",2004,"Less than 1 000 kg","31,688"
-"Austria",2004,"From 1 000 to 1 249 kg","79,780"
-"Austria",2004,"From 1 250 to 1 499 kg","123,022"
-"Austria",2004,"1 500 kg or over","76,802"
-"Poland",2004,"Total","833,021"
-"Poland",2004,"Less than 1 000 kg","179,278"
-"Poland",2004,"From 1 000 to 1 249 kg","357,601"
-"Poland",2004,"From 1 250 to 1 499 kg","196,486"
-"Poland",2004,"1 500 kg or over","99,656"
-"Romania",2004,"Total","149,290"
-"Slovenia",2004,"Total","58,945"
-"Slovakia",2004,"Total","71,954"
-"Finland",2004,"Total","143,160"
-"Finland",2004,"Less than 1 000 kg","6,237"
-"Finland",2004,"From 1 000 to 1 249 kg","31,979"
-"Finland",2004,"From 1 250 to 1 499 kg","72,393"
-"Finland",2004,"1 500 kg or over","32,033"
-"Sweden",2004,"Total","297,405"
-"Sweden",2004,"Less than 1 000 kg","4,076"
-"Sweden",2004,"From 1 000 to 1 249 kg","46,171"
-"Sweden",2004,"From 1 250 to 1 499 kg","100,116"
-"Sweden",2004,"1 500 kg or over","147,042"
-"United Kingdom",2004,"Total","2,668,449"
-"Iceland",2004,"Total","13,927"
-"Iceland",2004,"Less than 1 000 kg","985"
-"Iceland",2004,"From 1 000 to 1 249 kg","2,966"
-"Iceland",2004,"From 1 250 to 1 499 kg","4,678"
-"Iceland",2004,"1 500 kg or over","5,298"
-"Liechtenstein",2004,"Total","1,790"
-"Liechtenstein",2004,"Less than 1 000 kg","40"
-"Liechtenstein",2004,"From 1 000 to 1 249 kg","300"
-"Liechtenstein",2004,"From 1 250 to 1 499 kg","490"
-"Liechtenstein",2004,"1 500 kg or over","960"
-"Norway",2004,"Total","145,538"
-"Norway",2004,"Less than 1 000 kg","10,265"
-"Norway",2004,"From 1 000 to 1 249 kg","33,520"
-"Norway",2004,"From 1 250 to 1 499 kg","65,229"
-"Norway",2004,"1 500 kg or over","36,524"
-"Switzerland",2004,"Total","267,476"
-"Switzerland",2004,"Less than 1 000 kg","9,136"
-"Switzerland",2004,"From 1 000 to 1 249 kg","48,954"
-"Switzerland",2004,"From 1 250 to 1 499 kg","76,767"
-"Switzerland",2004,"1 500 kg or over","132,625"
-"Turkey",2004,"Total","432,728"
-"Belgium",2005,"Total","484,915"
-"Bulgaria",2005,"Total","168,102"
-"Czech Republic",2005,"Total","125,166"
-"Germany (until 1990 former territory of the FRG)",2005,"Total","3,342,122"
-"Croatia",2005,"Total","101,916"
-"Cyprus",2005,"Total","38,676"
-"Cyprus",2005,"Less than 1 000 kg","2,939"
-"Cyprus",2005,"From 1 000 to 1 249 kg","11,835"
-"Cyprus",2005,"From 1 250 to 1 499 kg","14,155"
-"Cyprus",2005,"1 500 kg or over","9,747"
-"Latvia",2005,"Total","69,704"
-"Latvia",2005,"Less than 1 000 kg","2,753"
-"Latvia",2005,"From 1 000 to 1 249 kg","21,708"
-"Latvia",2005,"From 1 250 to 1 499 kg","24,102"
-"Latvia",2005,"1 500 kg or over","21,141"
-"Lithuania",2005,"Total","173,644"
-"Lithuania",2005,"Less than 1 000 kg","15,676"
-"Lithuania",2005,"From 1 000 to 1 249 kg","71,259"
-"Lithuania",2005,"From 1 250 to 1 499 kg","55,424"
-"Lithuania",2005,"1 500 kg or over","31,285"
-"Luxembourg",2005,"Total","48,517"
-"Netherlands",2005,"Total","465,196"
-"Poland",2005,"Total","979,082"
-"Poland",2005,"Less than 1 000 kg","155,185"
-"Poland",2005,"From 1 000 to 1 249 kg","379,217"
-"Poland",2005,"From 1 250 to 1 499 kg","271,965"
-"Poland",2005,"1 500 kg or over","17,271"
-"Slovenia",2005,"Total","60,531"
-"Sweden",2005,"Total","297,050"
-"Sweden",2005,"Less than 1 000 kg","3,449"
-"Sweden",2005,"From 1 000 to 1 249 kg","42,181"
-"Sweden",2005,"From 1 250 to 1 499 kg","101,579"
-"Sweden",2005,"1 500 kg or over","149,840"
-"Iceland",2005,"Total","22,141"
-"Iceland",2005,"Less than 1 000 kg","1,229"
-"Iceland",2005,"From 1 000 to 1 249 kg","4,030"
-"Iceland",2005,"From 1 250 to 1 499 kg","6,452"
-"Iceland",2005,"1 500 kg or over","10,430"
-"Switzerland",2005,"Total","260,682"
-"Switzerland",2005,"Less than 1 000 kg","8,704"
-"Switzerland",2005,"From 1 000 to 1 249 kg","42,617"
-"Switzerland",2005,"From 1 250 to 1 499 kg","74,455"
-"Switzerland",2005,"1 500 kg or over","134,906"
-"Former Yugoslav Republic of Macedonia, the",2005,"Total","15,894"
-"Turkey",2005,"Total","406,807"
-"Belgium",2006,"Total","530,941"
-"Bulgaria",2006,"Total","182,095"
-"Czech Republic",2006,"Total","120,370"
-"Denmark",2006,"Total","131,605"
-"Germany (until 1990 former territory of the FRG)",2006,"Total","3,467,961"
-"Estonia",2006,"Total","25,372"
-"Estonia",2006,"Less than 1 000 kg","518"
-"Estonia",2006,"From 1 000 to 1 249 kg","5,198"
-"Estonia",2006,"From 1 250 to 1 499 kg","11,164"
-"Estonia",2006,"1 500 kg or over","8,492"
-"Spain",2006,"Total","1,660,627"
-"Spain",2006,"Less than 1 000 kg","117,237"
-"Spain",2006,"From 1 000 to 1 249 kg","515,740"
-"Spain",2006,"From 1 250 to 1 499 kg","715,678"
-"Spain",2006,"1 500 kg or over","314,657"
-"France",2006,"Total","2,000,549"
-"France",2006,"Less than 1 000 kg","258,059"
-"France",2006,"From 1 000 to 1 249 kg","731,692"
-"France",2006,"From 1 250 to 1 499 kg","663,822"
-"France",2006,"1 500 kg or over","346,976"
-"Croatia",2006,"Total","114,680"
-"Cyprus",2006,"Total","37,192"
-"Cyprus",2006,"Less than 1 000 kg","2,826"
-"Cyprus",2006,"From 1 000 to 1 249 kg","11,381"
-"Cyprus",2006,"From 1 250 to 1 499 kg","13,612"
-"Cyprus",2006,"1 500 kg or over","9,373"
-"Latvia",2006,"Total","97,399"
-"Latvia",2006,"Less than 1 000 kg","2,181"
-"Latvia",2006,"From 1 000 to 1 249 kg","24,492"
-"Latvia",2006,"From 1 250 to 1 499 kg","35,466"
-"Latvia",2006,"1 500 kg or over","35,260"
-"Lithuania",2006,"Total","185,271"
-"Lithuania",2006,"Less than 1 000 kg","11,714"
-"Lithuania",2006,"From 1 000 to 1 249 kg","68,070"
-"Lithuania",2006,"From 1 250 to 1 499 kg","65,385"
-"Lithuania",2006,"1 500 kg or over","40,102"
-"Luxembourg",2006,"Total","50,837"
-"Luxembourg",2006,"Less than 1 000 kg","954"
-"Luxembourg",2006,"From 1 000 to 1 249 kg","9,497"
-"Luxembourg",2006,"From 1 250 to 1 499 kg","16,018"
-"Luxembourg",2006,"1 500 kg or over","24,368"
-"Hungary",2006,"Total","151,670"
-"Netherlands",2006,"Total","483,999"
-"Austria",2006,"Total","308,594"
-"Austria",2006,"Less than 1 000 kg","21,559"
-"Austria",2006,"From 1 000 to 1 249 kg","91,900"
-"Austria",2006,"From 1 250 to 1 499 kg","97,101"
-"Austria",2006,"1 500 kg or over","97,734"
-"Poland",2006,"Total","923,783"
-"Poland",2006,"Less than 1 000 kg","112,273"
-"Poland",2006,"From 1 000 to 1 249 kg","313,980"
-"Poland",2006,"From 1 250 to 1 499 kg","279,977"
-"Poland",2006,"1 500 kg or over","217,553"
-"Romania",2006,"Total","312,515"
-"Slovenia",2006,"Total","59,885"
-"Finland",2006,"Total","146,201"
-"Finland",2006,"Less than 1 000 kg","4,776"
-"Finland",2006,"From 1 000 to 1 249 kg","26,525"
-"Finland",2006,"From 1 250 to 1 499 kg","67,984"
-"Finland",2006,"1 500 kg or over","46,415"
-"Sweden",2006,"Total","300,502"
-"Sweden",2006,"Less than 1 000 kg","5,848"
-"Sweden",2006,"From 1 000 to 1 249 kg","41,009"
-"Sweden",2006,"From 1 250 to 1 499 kg","94,065"
-"Sweden",2006,"1 500 kg or over","159,580"
-"Liechtenstein",2006,"Total","1,890"
-"Liechtenstein",2006,"Less than 1 000 kg","70"
-"Liechtenstein",2006,"From 1 000 to 1 249 kg","260"
-"Liechtenstein",2006,"From 1 250 to 1 499 kg","450"
-"Liechtenstein",2006,"1 500 kg or over","1,110"
-"Norway",2006,"Total","142,572"
-"Norway",2006,"Less than 1 000 kg","5,764"
-"Norway",2006,"From 1 000 to 1 249 kg","30,620"
-"Norway",2006,"From 1 250 to 1 499 kg","51,706"
-"Norway",2006,"1 500 kg or over","54,482"
-"Switzerland",2006,"Total","269,700"
-"Switzerland",2006,"Less than 1 000 kg","10,100"
-"Switzerland",2006,"From 1 000 to 1 249 kg","45,600"
-"Switzerland",2006,"From 1 250 to 1 499 kg","72,300"
-"Switzerland",2006,"1 500 kg or over","141,800"
-"Former Yugoslav Republic of Macedonia, the",2006,"Total","12,450"
-"Turkey",2006,"Total","396,542"
-"Belgium",2007,"Total","529,606"
-"Bulgaria",2007,"Total","348,887"
-"Czech Republic",2007,"Total","129,443"
-"Denmark",2007,"Total","252,183"
-"Germany (until 1990 former territory of the FRG)",2007,"Total","3,148,163"
-"Estonia",2007,"Total","30,916"
-"Estonia",2007,"Less than 1 000 kg","562"
-"Estonia",2007,"From 1 000 to 1 249 kg","4,901"
-"Estonia",2007,"From 1 250 to 1 499 kg","13,846"
-"Estonia",2007,"1 500 kg or over","11,607"
-"Ireland",2007,"Total","180,754"
-"Spain",2007,"Total","1,633,806"
-"Spain",2007,"Less than 1 000 kg","69,232"
-"Spain",2007,"From 1 000 to 1 249 kg","486,215"
-"Spain",2007,"From 1 250 to 1 499 kg","710,496"
-"Spain",2007,"1 500 kg or over","364,100"
-"France",2007,"Total","2,064,543"
-"France",2007,"Less than 1 000 kg","227,495"
-"France",2007,"From 1 000 to 1 249 kg","716,030"
-"France",2007,"From 1 250 to 1 499 kg","699,993"
-"France",2007,"1 500 kg or over","421,025"
-"Croatia",2007,"Total","108,015"
-"Croatia",2007,"Less than 1 000 kg","10,746"
-"Croatia",2007,"From 1 000 to 1 249 kg","44,166"
-"Croatia",2007,"From 1 250 to 1 499 kg","34,268"
-"Croatia",2007,"1 500 kg or over","18,835"
-"Italy",2007,"Total","2,514,905"
-"Cyprus",2007,"Total","50,908"
-"Cyprus",2007,"Less than 1 000 kg","3,868"
-"Cyprus",2007,"From 1 000 to 1 249 kg","15,710"
-"Cyprus",2007,"From 1 250 to 1 499 kg","18,602"
-"Cyprus",2007,"1 500 kg or over","12,728"
-"Latvia",2007,"Total","107,003"
-"Latvia",2007,"Less than 1 000 kg","1,385"
-"Latvia",2007,"From 1 000 to 1 249 kg","21,081"
-"Latvia",2007,"From 1 250 to 1 499 kg","39,378"
-"Latvia",2007,"1 500 kg or over","45,159"
-"Lithuania",2007,"Total","220,236"
-"Lithuania",2007,"Less than 1 000 kg","10,217"
-"Lithuania",2007,"From 1 000 to 1 249 kg","68,268"
-"Lithuania",2007,"From 1 250 to 1 499 kg","84,880"
-"Lithuania",2007,"1 500 kg or over","56,871"
-"Luxembourg",2007,"Total","51,332"
-"Luxembourg",2007,"Less than 1 000 kg","828"
-"Luxembourg",2007,"From 1 000 to 1 249 kg","9,688"
-"Luxembourg",2007,"From 1 250 to 1 499 kg","16,717"
-"Luxembourg",2007,"1 500 kg or over","24,099"
-"Hungary",2007,"Total","136,032"
-"Netherlands",2007,"Total","505,643"
-"Austria",2007,"Total","298,182"
-"Austria",2007,"Less than 1 000 kg","17,921"
-"Austria",2007,"From 1 000 to 1 249 kg","89,033"
-"Austria",2007,"From 1 250 to 1 499 kg","100,483"
-"Austria",2007,"1 500 kg or over","90,745"
-"Poland",2007,"Total","1,128,684"
-"Poland",2007,"Less than 1 000 kg","106,186"
-"Poland",2007,"From 1 000 to 1 249 kg","322,555"
-"Poland",2007,"From 1 250 to 1 499 kg","373,026"
-"Poland",2007,"1 500 kg or over","326,917"
-"Romania",2007,"Total","436,349"
-"Slovenia",2007,"Total","67,791"
-"Slovakia",2007,"Total","146,292"
-"Finland",2007,"Total","126,022"
-"Finland",2007,"Less than 1 000 kg","1,984"
-"Finland",2007,"From 1 000 to 1 249 kg","19,377"
-"Finland",2007,"From 1 250 to 1 499 kg","57,559"
-"Finland",2007,"1 500 kg or over","46,425"
-"Sweden",2007,"Total","321,705"
-"Sweden",2007,"Less than 1 000 kg","8,767"
-"Sweden",2007,"From 1 000 to 1 249 kg","35,557"
-"Sweden",2007,"From 1 250 to 1 499 kg","102,098"
-"Sweden",2007,"1 500 kg or over","175,283"
-"Liechtenstein",2007,"Total","1,990"
-"Liechtenstein",2007,"Less than 1 000 kg","60"
-"Liechtenstein",2007,"From 1 000 to 1 249 kg","260"
-"Liechtenstein",2007,"From 1 250 to 1 499 kg","440"
-"Liechtenstein",2007,"1 500 kg or over","1,230"
-"Norway",2007,"Total","162,970"
-"Norway",2007,"Less than 1 000 kg","5,357"
-"Norway",2007,"From 1 000 to 1 249 kg","27,945"
-"Norway",2007,"From 1 250 to 1 499 kg","67,389"
-"Norway",2007,"1 500 kg or over","62,279"
-"Switzerland",2007,"Total","284,000"
-"Switzerland",2007,"Less than 1 000 kg","10,200"
-"Switzerland",2007,"From 1 000 to 1 249 kg","45,600"
-"Switzerland",2007,"From 1 250 to 1 499 kg","76,800"
-"Switzerland",2007,"1 500 kg or over","151,400"
-"Former Yugoslav Republic of Macedonia, the",2007,"Total","16,914"
-"Turkey",2007,"Total","353,495"
-"Belgium",2008,"Total","540,542"
-"Bulgaria",2008,"Total","351,433"
-"Czech Republic",2008,"Total","141,954"
-"Denmark",2008,"Total","184,323"
-"Germany (until 1990 former territory of the FRG)",2008,"Total","3,090,040"
-"Estonia",2008,"Total","24,590"
-"Estonia",2008,"Less than 1 000 kg","391"
-"Estonia",2008,"From 1 000 to 1 249 kg","3,884"
-"Estonia",2008,"From 1 250 to 1 499 kg","11,413"
-"Estonia",2008,"1 500 kg or over","8,902"
-"Spain",2008,"Total","1,188,485"
-"Spain",2008,"Less than 1 000 kg","61,909"
-"Spain",2008,"From 1 000 to 1 249 kg","352,392"
-"Spain",2008,"From 1 250 to 1 499 kg","523,598"
-"Spain",2008,"1 500 kg or over","250,586"
-"France",2008,"Total","2,050,283"
-"France",2008,"Less than 1 000 kg","281,019"
-"France",2008,"From 1 000 to 1 249 kg","713,753"
-"France",2008,"From 1 250 to 1 499 kg","725,261"
-"France",2008,"1 500 kg or over","330,250"
-"Croatia",2008,"Total","96,712"
-"Croatia",2008,"Less than 1 000 kg","7,256"
-"Croatia",2008,"From 1 000 to 1 249 kg","37,627"
-"Croatia",2008,"From 1 250 to 1 499 kg","33,868"
-"Croatia",2008,"1 500 kg or over","17,961"
-"Italy",2008,"Total","2,193,822"
-"Cyprus",2008,"Total","51,410"
-"Cyprus",2008,"Less than 1 000 kg","3,885"
-"Cyprus",2008,"From 1 000 to 1 249 kg","15,748"
-"Cyprus",2008,"From 1 250 to 1 499 kg","18,814"
-"Cyprus",2008,"1 500 kg or over","12,963"
-"Latvia",2008,"Total","54,759"
-"Latvia",2008,"Less than 1 000 kg","673"
-"Latvia",2008,"From 1 000 to 1 249 kg","9,713"
-"Latvia",2008,"From 1 250 to 1 499 kg","20,676"
-"Latvia",2008,"1 500 kg or over","23,697"
-"Lithuania",2008,"Total","191,768"
-"Lithuania",2008,"Less than 1 000 kg","7,830"
-"Lithuania",2008,"From 1 000 to 1 249 kg","50,733"
-"Lithuania",2008,"From 1 250 to 1 499 kg","76,495"
-"Lithuania",2008,"1 500 kg or over","56,710"
-"Luxembourg",2008,"Total","52,359"
-"Luxembourg",2008,"Less than 1 000 kg","1,081"
-"Luxembourg",2008,"From 1 000 to 1 249 kg","9,310"
-"Luxembourg",2008,"From 1 250 to 1 499 kg","17,772"
-"Luxembourg",2008,"1 500 kg or over","24,196"
-"Hungary",2008,"Total","176,678"
-"Hungary",2008,"Less than 1 000 kg","26,808"
-"Hungary",2008,"From 1 000 to 1 249 kg","72,736"
-"Hungary",2008,"From 1 250 to 1 499 kg","46,758"
-"Hungary",2008,"1 500 kg or over","30,376"
-"Malta",2008,"Total","9,598"
-"Malta",2008,"Less than 1 000 kg","47"
-"Malta",2008,"From 1 000 to 1 249 kg","5,459"
-"Malta",2008,"From 1 250 to 1 499 kg","4,000"
-"Malta",2008,"1 500 kg or over","92"
-"Netherlands",2008,"Total","499,921"
-"Austria",2008,"Total","293,697"
-"Austria",2008,"Less than 1 000 kg","25,570"
-"Austria",2008,"From 1 000 to 1 249 kg","85,708"
-"Austria",2008,"From 1 250 to 1 499 kg","96,969"
-"Austria",2008,"1 500 kg or over","85,450"
-"Poland",2008,"Total","1,280,633"
-"Poland",2008,"Less than 1 000 kg","84,670"
-"Poland",2008,"From 1 000 to 1 249 kg","302,045"
-"Poland",2008,"From 1 250 to 1 499 kg","439,382"
-"Poland",2008,"1 500 kg or over","454,536"
-"Romania",2008,"Total","586,476"
-"Slovenia",2008,"Total","71,037"
-"Slovakia",2008,"Total","151,814"
-"Finland",2008,"Total","140,216"
-"Finland",2008,"Less than 1 000 kg","1,761"
-"Finland",2008,"From 1 000 to 1 249 kg","19,682"
-"Finland",2008,"From 1 250 to 1 499 kg","64,193"
-"Finland",2008,"1 500 kg or over","54,030"
-"Sweden",2008,"Total","257,806"
-"Sweden",2008,"Less than 1 000 kg","8,513"
-"Sweden",2008,"From 1 000 to 1 249 kg","30,085"
-"Sweden",2008,"From 1 250 to 1 499 kg","83,348"
-"Sweden",2008,"1 500 kg or over","135,860"
-"United Kingdom",2008,"Total","2,112,000"
-"Liechtenstein",2008,"Total","2,005"
-"Liechtenstein",2008,"Less than 1 000 kg","62"
-"Liechtenstein",2008,"From 1 000 to 1 249 kg","336"
-"Liechtenstein",2008,"From 1 250 to 1 499 kg","472"
-"Liechtenstein",2008,"1 500 kg or over","1,135"
-"Norway",2008,"Total","138,241"
-"Norway",2008,"Less than 1 000 kg","5,037"
-"Norway",2008,"From 1 000 to 1 249 kg","19,667"
-"Norway",2008,"From 1 250 to 1 499 kg","56,865"
-"Norway",2008,"1 500 kg or over","56,672"
-"Switzerland",2008,"Total","288,000"
-"Switzerland",2008,"Less than 1 000 kg","13,800"
-"Switzerland",2008,"From 1 000 to 1 249 kg","56,500"
-"Switzerland",2008,"From 1 250 to 1 499 kg","80,400"
-"Switzerland",2008,"1 500 kg or over","137,300"
-"Former Yugoslav Republic of Macedonia, the",2008,"Total","17,914"
-"Turkey",2008,"Total","353,168"
-"Belgium",2009,"Total","479,920"
-"Bulgaria",2009,"Total","201,304"
-"Czech Republic",2009,"Total","160,614"
-"Germany (until 1990 former territory of the FRG)",2009,"Total","3,807,175"
-"Estonia",2009,"Total","9,948"
-"Estonia",2009,"Less than 1 000 kg","102"
-"Estonia",2009,"From 1 000 to 1 249 kg","1,277"
-"Estonia",2009,"From 1 250 to 1 499 kg","4,606"
-"Estonia",2009,"1 500 kg or over","3,963"
-"Spain",2009,"Total","971,177"
-"Spain",2009,"Less than 1 000 kg","63,745"
-"Spain",2009,"From 1 000 to 1 249 kg","190,605"
-"Spain",2009,"From 1 250 to 1 499 kg","275,269"
-"Spain",2009,"1 500 kg or over","441,558"
-"France",2009,"Total","2,269,011"
-"France",2009,"Less than 1 000 kg","455,091"
-"France",2009,"From 1 000 to 1 249 kg","795,727"
-"France",2009,"From 1 250 to 1 499 kg","720,559"
-"France",2009,"1 500 kg or over","297,634"
-"Croatia",2009,"Total","53,569"
-"Croatia",2009,"Less than 1 000 kg","3,987"
-"Croatia",2009,"From 1 000 to 1 249 kg","18,859"
-"Croatia",2009,"From 1 250 to 1 499 kg","19,285"
-"Croatia",2009,"1 500 kg or over","11,438"
-"Italy",2009,"Total","2,176,940"
-"Cyprus",2009,"Total","37,494"
-"Cyprus",2009,"Less than 1 000 kg","2,909"
-"Cyprus",2009,"From 1 000 to 1 249 kg","10,854"
-"Cyprus",2009,"From 1 250 to 1 499 kg","12,647"
-"Cyprus",2009,"1 500 kg or over","11,084"
-"Latvia",2009,"Total","17,288"
-"Latvia",2009,"Less than 1 000 kg","295"
-"Latvia",2009,"From 1 000 to 1 249 kg","2,867"
-"Latvia",2009,"From 1 250 to 1 499 kg","6,386"
-"Latvia",2009,"1 500 kg or over","7,740"
-"Lithuania",2009,"Total","136,803"
-"Lithuania",2009,"Less than 1 000 kg","4,372"
-"Lithuania",2009,"From 1 000 to 1 249 kg","31,063"
-"Lithuania",2009,"From 1 250 to 1 499 kg","57,292"
-"Lithuania",2009,"1 500 kg or over","44,076"
-"Luxembourg",2009,"Total","47,264"
-"Malta",2009,"Total","15,816"
-"Malta",2009,"Less than 1 000 kg","316"
-"Malta",2009,"From 1 000 to 1 249 kg","1,993"
-"Malta",2009,"From 1 250 to 1 499 kg","6,532"
-"Malta",2009,"1 500 kg or over","6,975"
-"Austria",2009,"Total","319,403"
-"Austria",2009,"Less than 1 000 kg","43,316"
-"Austria",2009,"From 1 000 to 1 249 kg","100,243"
-"Austria",2009,"From 1 250 to 1 499 kg","98,153"
-"Austria",2009,"1 500 kg or over","77,692"
-"Poland",2009,"Total","864,295"
-"Poland",2009,"Less than 1 000 kg","47,204"
-"Poland",2009,"From 1 000 to 1 249 kg","191,557"
-"Poland",2009,"From 1 250 to 1 499 kg","307,835"
-"Poland",2009,"1 500 kg or over","317,699"
-"Portugal",2009,"Total","181,132"
-"Romania",2009,"Total","328,880"
-"Slovenia",2009,"Total","57,391"
-"Slovakia",2009,"Total","148,370"
-"Finland",2009,"Total","90,923"
-"Finland",2009,"Less than 1 000 kg","1,350"
-"Finland",2009,"From 1 000 to 1 249 kg","12,858"
-"Finland",2009,"From 1 250 to 1 499 kg","39,202"
-"Finland",2009,"1 500 kg or over","37,180"
-"Sweden",2009,"Total","212,695"
-"Sweden",2009,"Less than 1 000 kg","6,354"
-"Sweden",2009,"From 1 000 to 1 249 kg","27,893"
-"Sweden",2009,"From 1 250 to 1 499 kg","63,844"
-"Sweden",2009,"1 500 kg or over","114,604"
-"United Kingdom",2009,"Total","1,968,000"
-"Liechtenstein",2009,"Total","1,620"
-"Liechtenstein",2009,"Less than 1 000 kg","67"
-"Liechtenstein",2009,"From 1 000 to 1 249 kg","283"
-"Liechtenstein",2009,"From 1 250 to 1 499 kg","396"
-"Liechtenstein",2009,"1 500 kg or over","874"
-"Norway",2009,"Total","125,903"
-"Norway",2009,"Less than 1 000 kg","6,701"
-"Norway",2009,"From 1 000 to 1 249 kg","18,237"
-"Norway",2009,"From 1 250 to 1 499 kg","43,724"
-"Norway",2009,"1 500 kg or over","57,241"
-"Switzerland",2009,"Total","266,500"
-"Switzerland",2009,"Less than 1 000 kg","13,300"
-"Switzerland",2009,"From 1 000 to 1 249 kg","54,200"
-"Switzerland",2009,"From 1 250 to 1 499 kg","75,600"
-"Switzerland",2009,"1 500 kg or over","123,400"
-"Former Yugoslav Republic of Macedonia, the",2009,"Total","13,113"
-"Turkey",2009,"Total","357,986"
-"Belgium",2010,"Total","551,661"
-"Bulgaria",2010,"Total","186,092"
-"Czech Republic",2010,"Total","168,372"
-"Germany (until 1990 former territory of the FRG)",2010,"Total","2,916,260"
-"Estonia",2010,"Total","10,294"
-"Estonia",2010,"Less than 1 000 kg","98"
-"Estonia",2010,"From 1 000 to 1 249 kg","1,366"
-"Estonia",2010,"From 1 250 to 1 499 kg","4,550"
-"Estonia",2010,"1 500 kg or over","4,280"
-"Greece",2010,"Total","153,847"
-"Spain",2010,"Total","1,000,010"
-"Spain",2010,"Less than 1 000 kg","89,015"
-"Spain",2010,"From 1 000 to 1 249 kg","286,414"
-"Spain",2010,"From 1 250 to 1 499 kg","421,096"
-"Spain",2010,"1 500 kg or over","203,485"
-"France",2010,"Total","2,210,186"
-"France",2010,"Less than 1 000 kg","354,252"
-"France",2010,"From 1 000 to 1 249 kg","854,789"
-"France",2010,"From 1 250 to 1 499 kg","669,019"
-"France",2010,"1 500 kg or over","332,017"
-"Croatia",2010,"Total","46,437"
-"Croatia",2010,"Less than 1 000 kg","3,133"
-"Croatia",2010,"From 1 000 to 1 249 kg","16,970"
-"Croatia",2010,"From 1 250 to 1 499 kg","17,318"
-"Croatia",2010,"1 500 kg or over","9,016"
-"Italy",2010,"Total","1,971,830"
-"Cyprus",2010,"Total","32,680"
-"Cyprus",2010,"Less than 1 000 kg","2,842"
-"Cyprus",2010,"From 1 000 to 1 249 kg","9,481"
-"Cyprus",2010,"From 1 250 to 1 499 kg","11,123"
-"Cyprus",2010,"1 500 kg or over","9,234"
-"Latvia",2010,"Total","26,656"
-"Latvia",2010,"Less than 1 000 kg","402"
-"Latvia",2010,"From 1 000 to 1 249 kg","4,193"
-"Latvia",2010,"From 1 250 to 1 499 kg","10,010"
-"Latvia",2010,"1 500 kg or over","12,051"
-"Lithuania",2010,"Total","161,266"
-"Lithuania",2010,"Less than 1 000 kg","3,434"
-"Lithuania",2010,"From 1 000 to 1 249 kg","29,307"
-"Lithuania",2010,"From 1 250 to 1 499 kg","66,460"
-"Lithuania",2010,"1 500 kg or over","62,075"
-"Luxembourg",2010,"Total","49,726"
-"Hungary",2010,"Total","61,324"
-"Hungary",2010,"Less than 1 000 kg","5,723"
-"Hungary",2010,"From 1 000 to 1 249 kg","18,817"
-"Hungary",2010,"From 1 250 to 1 499 kg","21,079"
-"Hungary",2010,"1 500 kg or over","15,705"
-"Malta",2010,"Total","13,605"
-"Malta",2010,"Less than 1 000 kg","181"
-"Malta",2010,"From 1 000 to 1 249 kg","1,292"
-"Malta",2010,"From 1 250 to 1 499 kg","5,954"
-"Malta",2010,"1 500 kg or over","6,178"
-"Netherlands",2010,"Total","482,633"
-"Austria",2010,"Total","328,563"
-"Austria",2010,"Less than 1 000 kg","40,490"
-"Austria",2010,"From 1 000 to 1 249 kg","91,545"
-"Austria",2010,"From 1 250 to 1 499 kg","110,597"
-"Austria",2010,"1 500 kg or over","85,931"
-"Poland",2010,"Total","873,098"
-"Poland",2010,"Less than 1 000 kg","45,982"
-"Poland",2010,"From 1 000 to 1 249 kg","186,598"
-"Poland",2010,"From 1 250 to 1 499 kg","315,799"
-"Poland",2010,"1 500 kg or over","324,719"
-"Portugal",2010,"Total","248,813"
-"Romania",2010,"Total","309,952"
-"Romania",2010,"Less than 1 000 kg","32,904"
-"Romania",2010,"From 1 000 to 1 249 kg","134,694"
-"Romania",2010,"From 1 250 to 1 499 kg","96,297"
-"Romania",2010,"1 500 kg or over","46,057"
-"Slovenia",2010,"Total","60,777"
-"Slovakia",2010,"Total","126,663"
-"Finland",2010,"Total","112,418"
-"Finland",2010,"Less than 1 000 kg","1,747"
-"Finland",2010,"From 1 000 to 1 249 kg","18,913"
-"Finland",2010,"From 1 250 to 1 499 kg","50,210"
-"Finland",2010,"1 500 kg or over","41,102"
-"Sweden",2010,"Total","308,718"
-"Sweden",2010,"Less than 1 000 kg","7,562"
-"Sweden",2010,"From 1 000 to 1 249 kg","44,464"
-"Sweden",2010,"From 1 250 to 1 499 kg","83,701"
-"Sweden",2010,"1 500 kg or over","172,991"
-"United Kingdom",2010,"Total","1,996,324"
-"Liechtenstein",2010,"Total","1,782"
-"Liechtenstein",2010,"Less than 1 000 kg","62"
-"Liechtenstein",2010,"From 1 000 to 1 249 kg","278"
-"Liechtenstein",2010,"From 1 250 to 1 499 kg","422"
-"Liechtenstein",2010,"1 500 kg or over","1,020"
-"Norway",2010,"Total","159,374"
-"Norway",2010,"Less than 1 000 kg","9,058"
-"Norway",2010,"From 1 000 to 1 249 kg","28,635"
-"Norway",2010,"From 1 250 to 1 499 kg","54,294"
-"Norway",2010,"1 500 kg or over","67,387"
-"Switzerland",2010,"Total","296,600"
-"Switzerland",2010,"Less than 1 000 kg","12,600"
-"Switzerland",2010,"From 1 000 to 1 249 kg","64,500"
-"Switzerland",2010,"From 1 250 to 1 499 kg","83,700"
-"Switzerland",2010,"1 500 kg or over","135,800"
-"Former Yugoslav Republic of Macedonia, the",2010,"Total","49,291"
-"Turkey",2010,"Total","485,619"
-"Belgium",2011,"Total","577,382"
-"Bulgaria",2011,"Total","191,430"
-"Czech Republic",2011,"Total","172,787"
-"Germany (until 1990 former territory of the FRG)",2011,"Total","3,173,634"
-"Estonia",2011,"Total","17,058"
-"Estonia",2011,"Less than 1 000 kg","88"
-"Estonia",2011,"From 1 000 to 1 249 kg","2,217"
-"Estonia",2011,"From 1 250 to 1 499 kg","6,345"
-"Estonia",2011,"1 500 kg or over","8,408"
-"Ireland",2011,"Total","104,022"
-"Greece",2011,"Total","107,737"
-"Spain",2011,"Total","817,688"
-"Spain",2011,"Less than 1 000 kg","64,806"
-"Spain",2011,"From 1 000 to 1 249 kg","245,616"
-"Spain",2011,"From 1 250 to 1 499 kg","332,291"
-"Spain",2011,"1 500 kg or over","174,975"
-"France",2011,"Total","2,160,928"
-"France",2011,"Less than 1 000 kg","320,073"
-"France",2011,"From 1 000 to 1 249 kg","751,195"
-"France",2011,"From 1 250 to 1 499 kg","721,673"
-"France",2011,"1 500 kg or over","367,822"
-"Croatia",2011,"Total","48,883"
-"Croatia",2011,"Less than 1 000 kg","3,282"
-"Croatia",2011,"From 1 000 to 1 249 kg","16,366"
-"Croatia",2011,"From 1 250 to 1 499 kg","19,776"
-"Croatia",2011,"1 500 kg or over","9,459"
-"Italy",2011,"Total","1,764,592"
-"Cyprus",2011,"Total","27,929"
-"Cyprus",2011,"Less than 1 000 kg","1,900"
-"Cyprus",2011,"From 1 000 to 1 249 kg","7,828"
-"Cyprus",2011,"From 1 250 to 1 499 kg","10,711"
-"Cyprus",2011,"1 500 kg or over","7,490"
-"Latvia",2011,"Total","43,468"
-"Latvia",2011,"Less than 1 000 kg","600"
-"Latvia",2011,"From 1 000 to 1 249 kg","5,525"
-"Latvia",2011,"From 1 250 to 1 499 kg","15,891"
-"Latvia",2011,"1 500 kg or over","21,452"
-"Lithuania",2011,"Total","132,117"
-"Lithuania",2011,"Less than 1 000 kg","2,174"
-"Lithuania",2011,"From 1 000 to 1 249 kg","20,126"
-"Lithuania",2011,"From 1 250 to 1 499 kg","54,409"
-"Lithuania",2011,"1 500 kg or over","55,408"
-"Luxembourg",2011,"Total","49,881"
-"Hungary",2011,"Total","76,528"
-"Hungary",2011,"Less than 1 000 kg","6,913"
-"Hungary",2011,"From 1 000 to 1 249 kg","21,756"
-"Hungary",2011,"From 1 250 to 1 499 kg","27,360"
-"Hungary",2011,"1 500 kg or over","20,499"
-"Malta",2011,"Total","15,875"
-"Malta",2011,"Less than 1 000 kg","239"
-"Malta",2011,"From 1 000 to 1 249 kg","1,617"
-"Malta",2011,"From 1 250 to 1 499 kg","5,024"
-"Malta",2011,"1 500 kg or over","8,995"
-"Netherlands",2011,"Total","555,846"
-"Austria",2011,"Total","356,145"
-"Austria",2011,"Less than 1 000 kg","36,616"
-"Austria",2011,"From 1 000 to 1 249 kg","87,834"
-"Austria",2011,"From 1 250 to 1 499 kg","122,706"
-"Austria",2011,"1 500 kg or over","108,989"
-"Poland",2011,"Total","928,457"
-"Poland",2011,"Less than 1 000 kg","45,139"
-"Poland",2011,"From 1 000 to 1 249 kg","191,140"
-"Poland",2011,"From 1 250 to 1 499 kg","326,470"
-"Poland",2011,"1 500 kg or over","365,708"
-"Portugal",2011,"Total","177,183"
-"Romania",2011,"Total","176,555"
-"Romania",2011,"Less than 1 000 kg","17,820"
-"Romania",2011,"From 1 000 to 1 249 kg","71,179"
-"Romania",2011,"From 1 250 to 1 499 kg","56,378"
-"Romania",2011,"1 500 kg or over","31,178"
-"Slovenia",2011,"Total","59,813"
-"Slovakia",2011,"Total","130,772"
-"Finland",2011,"Total","126,651"
-"Finland",2011,"Less than 1 000 kg","2,075"
-"Finland",2011,"From 1 000 to 1 249 kg","19,275"
-"Finland",2011,"From 1 250 to 1 499 kg","50,019"
-"Finland",2011,"1 500 kg or over","54,760"
-"Sweden",2011,"Total","326,615"
-"Sweden",2011,"Less than 1 000 kg","7,216"
-"Sweden",2011,"From 1 000 to 1 249 kg","43,578"
-"Sweden",2011,"From 1 250 to 1 499 kg","87,496"
-"Sweden",2011,"1 500 kg or over","188,325"
-"United Kingdom",2011,"Total","1,907,411"
-"Liechtenstein",2011,"Total","2,029"
-"Liechtenstein",2011,"Less than 1 000 kg","61"
-"Liechtenstein",2011,"From 1 000 to 1 249 kg","373"
-"Liechtenstein",2011,"From 1 250 to 1 499 kg","506"
-"Liechtenstein",2011,"1 500 kg or over","1,089"
-"Norway",2011,"Total","168,552"
-"Norway",2011,"Less than 1 000 kg","9,144"
-"Norway",2011,"From 1 000 to 1 249 kg","31,040"
-"Norway",2011,"From 1 250 to 1 499 kg","61,481"
-"Norway",2011,"1 500 kg or over","66,887"
-"Switzerland",2011,"Total","328,000"
-"Switzerland",2011,"Less than 1 000 kg","10,500"
-"Switzerland",2011,"From 1 000 to 1 249 kg","66,000"
-"Switzerland",2011,"From 1 250 to 1 499 kg","94,300"
-"Switzerland",2011,"1 500 kg or over","157,300"
-"Former Yugoslav Republic of Macedonia, the",2011,"Total","40,090"
-"Turkey",2011,"Total","602,248"
-"Belgium",2012,"Total","490,711"
-"Bulgaria",2012,"Total","196,614"
-"Czech Republic",2012,"Total","174,311"
-"Germany (until 1990 former territory of the FRG)",2012,"Total","3,082,504"
-"Estonia",2012,"Total","19,422"
-"Estonia",2012,"Less than 1 000 kg","133"
-"Estonia",2012,"From 1 000 to 1 249 kg","2,666"
-"Estonia",2012,"From 1 250 to 1 499 kg","7,230"
-"Estonia",2012,"1 500 kg or over","9,393"
-"Ireland",2012,"Total","77,506"
-"Greece",2012,"Total","64,301"
-"Spain",2012,"Total","710,638"
-"Spain",2012,"Less than 1 000 kg","95,345"
-"Spain",2012,"From 1 000 to 1 249 kg","207,930"
-"Spain",2012,"From 1 250 to 1 499 kg","253,325"
-"Spain",2012,"1 500 kg or over","154,038"
-"France",2012,"Total","1,857,013"
-"France",2012,"Less than 1 000 kg","258,194"
-"France",2012,"From 1 000 to 1 249 kg","644,537"
-"France",2012,"From 1 250 to 1 499 kg","608,336"
-"France",2012,"1 500 kg or over","345,355"
-"Croatia",2012,"Total","40,825"
-"Croatia",2012,"Less than 1 000 kg","3,203"
-"Croatia",2012,"From 1 000 to 1 249 kg","12,594"
-"Croatia",2012,"From 1 250 to 1 499 kg","15,803"
-"Croatia",2012,"1 500 kg or over","9,210"
-"Italy",2012,"Total","1,403,043"
-"Cyprus",2012,"Total","20,556"
-"Cyprus",2012,"Less than 1 000 kg","1,722"
-"Cyprus",2012,"From 1 000 to 1 249 kg","6,239"
-"Cyprus",2012,"From 1 250 to 1 499 kg","7,626"
-"Cyprus",2012,"1 500 kg or over","4,969"
-"Latvia",2012,"Total","50,135"
-"Latvia",2012,"Less than 1 000 kg","553"
-"Latvia",2012,"From 1 000 to 1 249 kg","4,983"
-"Latvia",2012,"From 1 250 to 1 499 kg","16,421"
-"Latvia",2012,"1 500 kg or over","28,178"
-"Lithuania",2012,"Total","153,024"
-"Lithuania",2012,"Less than 1 000 kg","2,145"
-"Lithuania",2012,"From 1 000 to 1 249 kg","19,766"
-"Lithuania",2012,"From 1 250 to 1 499 kg","60,598"
-"Lithuania",2012,"1 500 kg or over","70,515"
-"Luxembourg",2012,"Total","50,398"
-"Hungary",2012,"Total","106,671"
-"Hungary",2012,"Less than 1 000 kg","11,396"
-"Hungary",2012,"From 1 000 to 1 249 kg","29,657"
-"Hungary",2012,"From 1 250 to 1 499 kg","35,289"
-"Hungary",2012,"1 500 kg or over","30,329"
-"Malta",2012,"Total","13,037"
-"Malta",2012,"Less than 1 000 kg","169"
-"Malta",2012,"From 1 000 to 1 249 kg","1,051"
-"Malta",2012,"From 1 250 to 1 499 kg","4,063"
-"Malta",2012,"1 500 kg or over","7,754"
-"Netherlands",2012,"Total","502,479"
-"Austria",2012,"Total","336,010"
-"Austria",2012,"Less than 1 000 kg","35,161"
-"Austria",2012,"From 1 000 to 1 249 kg","78,824"
-"Austria",2012,"From 1 250 to 1 499 kg","114,698"
-"Austria",2012,"1 500 kg or over","107,327"
-"Poland",2012,"Total","908,906"
-"Poland",2012,"Less than 1 000 kg","44,296"
-"Poland",2012,"From 1 000 to 1 249 kg","181,179"
-"Poland",2012,"From 1 250 to 1 499 kg","300,929"
-"Poland",2012,"1 500 kg or over","382,502"
-"Portugal",2012,"Total","110,002"
-"Romania",2012,"Total","242,025"
-"Romania",2012,"Less than 1 000 kg","25,179"
-"Romania",2012,"From 1 000 to 1 249 kg","78,420"
-"Romania",2012,"From 1 250 to 1 499 kg","82,381"
-"Romania",2012,"1 500 kg or over","56,045"
-"Slovenia",2012,"Total","49,700"
-"Slovakia",2012,"Total","130,818"
-"Finland",2012,"Total","111,664"
-"Finland",2012,"Less than 1 000 kg","2,446"
-"Finland",2012,"From 1 000 to 1 249 kg","18,337"
-"Finland",2012,"From 1 250 to 1 499 kg","41,036"
-"Finland",2012,"1 500 kg or over","49,448"
-"Sweden",2012,"Total","301,316"
-"Sweden",2012,"Less than 1 000 kg","7,031"
-"Sweden",2012,"From 1 000 to 1 249 kg","38,966"
-"Sweden",2012,"From 1 250 to 1 499 kg","75,401"
-"Sweden",2012,"1 500 kg or over","179,918"
-"Liechtenstein",2012,"Total","2,108"
-"Liechtenstein",2012,"Less than 1 000 kg","81"
-"Liechtenstein",2012,"From 1 000 to 1 249 kg","337"
-"Liechtenstein",2012,"From 1 250 to 1 499 kg","489"
-"Liechtenstein",2012,"1 500 kg or over","1,201"
-"Norway",2012,"Total","171,828"
-"Norway",2012,"Less than 1 000 kg","9,943"
-"Norway",2012,"From 1 000 to 1 249 kg","30,467"
-"Norway",2012,"From 1 250 to 1 499 kg","62,516"
-"Norway",2012,"1 500 kg or over","68,902"
-"Switzerland",2012,"Total","334,000"
-"Switzerland",2012,"Less than 1 000 kg","12,900"
-"Switzerland",2012,"From 1 000 to 1 249 kg","60,800"
-"Switzerland",2012,"From 1 250 to 1 499 kg","88,800"
-"Switzerland",2012,"1 500 kg or over","171,600"
-"Former Yugoslav Republic of Macedonia, the",2012,"Total","32,870"
-"Turkey",2012,"Total","565,791"
-"Belgium",2013,"Total","490,369"
-"Bulgaria",2013,"Total","199,963"
-"Czech Republic",2013,"Total","164,627"
-"Germany (until 1990 former territory of the FRG)",2013,"Total","2,952,431"
-"Estonia",2013,"Total","19,690"
-"Estonia",2013,"Less than 1 000 kg","146"
-"Estonia",2013,"From 1 000 to 1 249 kg","2,641"
-"Estonia",2013,"From 1 250 to 1 499 kg","7,172"
-"Estonia",2013,"1 500 kg or over","9,731"
-"Greece",2013,"Total","64,932"
-"Spain",2013,"Total","742,305"
-"Spain",2013,"Less than 1 000 kg","191,855"
-"Spain",2013,"From 1 000 to 1 249 kg","206,532"
-"Spain",2013,"From 1 250 to 1 499 kg","206,592"
-"Spain",2013,"1 500 kg or over","137,326"
-"France",2013,"Total","1,756,953"
-"France",2013,"Less than 1 000 kg","244,518"
-"France",2013,"From 1 000 to 1 249 kg","698,874"
-"France",2013,"From 1 250 to 1 499 kg","542,732"
-"France",2013,"1 500 kg or over","270,829"
-"Croatia",2013,"Total","46,563"
-"Croatia",2013,"Less than 1 000 kg","3,221"
-"Croatia",2013,"From 1 000 to 1 249 kg","14,158"
-"Croatia",2013,"From 1 250 to 1 499 kg","17,786"
-"Croatia",2013,"1 500 kg or over","11,398"
-"Italy",2013,"Total","1,311,334"
-"Cyprus",2013,"Total","14,771"
-"Cyprus",2013,"Less than 1 000 kg","1,872"
-"Cyprus",2013,"From 1 000 to 1 249 kg","4,533"
-"Cyprus",2013,"From 1 250 to 1 499 kg","4,755"
-"Cyprus",2013,"1 500 kg or over","3,611"
-"Latvia",2013,"Total","55,808"
-"Latvia",2013,"Less than 1 000 kg","524"
-"Latvia",2013,"From 1 000 to 1 249 kg","4,480"
-"Latvia",2013,"From 1 250 to 1 499 kg","16,976"
-"Latvia",2013,"1 500 kg or over","33,828"
-"Lithuania",2013,"Total","155,855"
-"Lithuania",2013,"Less than 1 000 kg","2,059"
-"Lithuania",2013,"From 1 000 to 1 249 kg","17,770"
-"Lithuania",2013,"From 1 250 to 1 499 kg","57,733"
-"Lithuania",2013,"1 500 kg or over","78,293"
-"Hungary",2013,"Total","126,937"
-"Hungary",2013,"Less than 1 000 kg","11,909"
-"Hungary",2013,"From 1 000 to 1 249 kg","33,365"
-"Hungary",2013,"From 1 250 to 1 499 kg","43,548"
-"Hungary",2013,"1 500 kg or over","38,115"
-"Malta",2013,"Total","13,094"
-"Malta",2013,"Less than 1 000 kg","193"
-"Malta",2013,"From 1 000 to 1 249 kg","1,309"
-"Malta",2013,"From 1 250 to 1 499 kg","3,957"
-"Malta",2013,"1 500 kg or over","7,635"
-"Netherlands",2013,"Total","416,717"
-"Austria",2013,"Total","319,035"
-"Austria",2013,"Less than 1 000 kg","26,119"
-"Austria",2013,"From 1 000 to 1 249 kg","83,281"
-"Austria",2013,"From 1 250 to 1 499 kg","107,371"
-"Austria",2013,"1 500 kg or over","102,264"
-"Poland",2013,"Total","987,809"
-"Poland",2013,"Less than 1 000 kg","45,838"
-"Poland",2013,"From 1 000 to 1 249 kg","195,062"
-"Poland",2013,"From 1 250 to 1 499 kg","325,764"
-"Poland",2013,"1 500 kg or over","421,145"
-"Romania",2013,"Total","279,740"
-"Romania",2013,"Less than 1 000 kg","23,609"
-"Romania",2013,"From 1 000 to 1 249 kg","92,534"
-"Romania",2013,"From 1 250 to 1 499 kg","101,822"
-"Romania",2013,"1 500 kg or over","61,775"
-"Slovenia",2013,"Total","51,968"
-"Slovakia",2013,"Total","113,876"
-"Finland",2013,"Total","103,450"
-"Finland",2013,"Less than 1 000 kg","1,963"
-"Finland",2013,"From 1 000 to 1 249 kg","18,884"
-"Finland",2013,"From 1 250 to 1 499 kg","39,464"
-"Finland",2013,"1 500 kg or over","43,139"
-"Sweden",2013,"Total","292,162"
-"Sweden",2013,"Less than 1 000 kg","6,414"
-"Sweden",2013,"From 1 000 to 1 249 kg","41,657"
-"Sweden",2013,"From 1 250 to 1 499 kg","70,605"
-"Sweden",2013,"1 500 kg or over","173,486"
-"Liechtenstein",2013,"Total","1,920"
-"Liechtenstein",2013,"Less than 1 000 kg","91"
-"Liechtenstein",2013,"From 1 000 to 1 249 kg","330"
-"Liechtenstein",2013,"From 1 250 to 1 499 kg","429"
-"Liechtenstein",2013,"1 500 kg or over","1,070"
-"Norway",2013,"Total","176,019"
-"Norway",2013,"Less than 1 000 kg","10,896"
-"Norway",2013,"From 1 000 to 1 249 kg","33,623"
-"Norway",2013,"From 1 250 to 1 499 kg","62,946"
-"Norway",2013,"1 500 kg or over","68,554"
-"Switzerland",2013,"Total","310,200"
-"Switzerland",2013,"Less than 1 000 kg","9,900"
-"Switzerland",2013,"From 1 000 to 1 249 kg","60,600"
-"Switzerland",2013,"From 1 250 to 1 499 kg","85,000"
-"Switzerland",2013,"1 500 kg or over","154,700"
-"Turkey",2013,"Total","654,905"
-"Bulgaria",2014,"Total","211,033"
-"Germany (until 1990 former territory of the FRG)",2014,"Total","3,036,773"
-"Estonia",2014,"Total","21,128"
-"Estonia",2014,"Less than 1 000 kg","159"
-"Estonia",2014,"From 1 000 to 1 249 kg","3,235"
-"Estonia",2014,"From 1 250 to 1 499 kg","8,051"
-"Estonia",2014,"1 500 kg or over","9,683"
-"Ireland",2014,"Total","84,136"
-"Greece",2014,"Total","84,445"
-"France",2014,"Total","1,765,855"
-"France",2014,"Less than 1 000 kg","271,160"
-"France",2014,"From 1 000 to 1 249 kg","700,863"
-"France",2014,"From 1 250 to 1 499 kg","561,340"
-"France",2014,"1 500 kg or over","232,492"
-"Croatia",2014,"Total","68,522"
-"Croatia",2014,"Less than 1 000 kg","5,365"
-"Croatia",2014,"From 1 000 to 1 249 kg","19,449"
-"Croatia",2014,"From 1 250 to 1 499 kg","28,313"
-"Croatia",2014,"1 500 kg or over","15,395"
-"Cyprus",2014,"Total","17,933"
-"Cyprus",2014,"Less than 1 000 kg","3,366"
-"Cyprus",2014,"From 1 000 to 1 249 kg","5,194"
-"Cyprus",2014,"From 1 250 to 1 499 kg","4,534"
-"Cyprus",2014,"1 500 kg or over","4,839"
-"Latvia",2014,"Total","13,173"
-"Latvia",2014,"Less than 1 000 kg","202"
-"Latvia",2014,"From 1 000 to 1 249 kg","1,601"
-"Latvia",2014,"From 1 250 to 1 499 kg","5,203"
-"Latvia",2014,"1 500 kg or over","6,167"
-"Lithuania",2014,"Total","139,438"
-"Lithuania",2014,"Less than 1 000 kg","2,968"
-"Lithuania",2014,"From 1 000 to 1 249 kg","13,721"
-"Lithuania",2014,"From 1 250 to 1 499 kg","48,189"
-"Lithuania",2014,"1 500 kg or over","74,560"
-"Hungary",2014,"Total","164,420"
-"Hungary",2014,"Less than 1 000 kg","14,640"
-"Hungary",2014,"From 1 000 to 1 249 kg","41,977"
-"Hungary",2014,"From 1 250 to 1 499 kg","56,818"
-"Hungary",2014,"1 500 kg or over","50,985"
-"Malta",2014,"Total","15,439"
-"Malta",2014,"Less than 1 000 kg","187"
-"Malta",2014,"From 1 000 to 1 249 kg","2,075"
-"Malta",2014,"From 1 250 to 1 499 kg","5,113"
-"Malta",2014,"1 500 kg or over","8,064"
-"Austria",2014,"Total","303,318"
-"Austria",2014,"Less than 1 000 kg","23,455"
-"Austria",2014,"From 1 000 to 1 249 kg","82,829"
-"Austria",2014,"From 1 250 to 1 499 kg","102,218"
-"Austria",2014,"1 500 kg or over","94,816"
-"Poland",2014,"Total","1,047,598"
-"Poland",2014,"Less than 1 000 kg","44,492"
-"Poland",2014,"From 1 000 to 1 249 kg","198,013"
-"Poland",2014,"From 1 250 to 1 499 kg","343,346"
-"Poland",2014,"1 500 kg or over","461,747"
-"Portugal",2014,"Total","199,288"
-"Slovenia",2014,"Total","54,086"
-"Slovakia",2014,"Total","125,813"
-"Finland",2014,"Total","106,235"
-"Finland",2014,"Less than 1 000 kg","1,635"
-"Finland",2014,"From 1 000 to 1 249 kg","19,695"
-"Finland",2014,"From 1 250 to 1 499 kg","43,868"
-"Finland",2014,"1 500 kg or over","41,037"
-"Sweden",2014,"Total","324,030"
-"Sweden",2014,"Less than 1 000 kg","6,005"
-"Sweden",2014,"From 1 000 to 1 249 kg","47,081"
-"Sweden",2014,"From 1 250 to 1 499 kg","85,690"
-"Sweden",2014,"1 500 kg or over","185,254"
-"Liechtenstein",2014,"Total","1,800"
-"Liechtenstein",2014,"Less than 1 000 kg","60"
-"Liechtenstein",2014,"From 1 000 to 1 249 kg","282"
-"Liechtenstein",2014,"From 1 250 to 1 499 kg","395"
-"Liechtenstein",2014,"1 500 kg or over","1,063"
-"Norway",2014,"Total","172,042"
-"Norway",2014,"Less than 1 000 kg","7,739"
-"Norway",2014,"From 1 000 to 1 249 kg","36,516"
-"Norway",2014,"From 1 250 to 1 499 kg","60,817"
-"Norway",2014,"1 500 kg or over","66,970"
-"Switzerland",2014,"Total","304,100"
-"Switzerland",2014,"Less than 1 000 kg","9,200"
-"Switzerland",2014,"From 1 000 to 1 249 kg","58,700"
-"Switzerland",2014,"From 1 250 to 1 499 kg","84,200"
-"Switzerland",2014,"1 500 kg or over","152,000"
-"Turkey",2014,"Total","585,814"
-"Turkey",2014,"Less than 1 000 kg","1,170"
-"Turkey",2014,"From 1 000 to 1 249 kg","178,508"
-"Turkey",2014,"From 1 250 to 1 499 kg","312,923"
-"Turkey",2014,"1 500 kg or over","93,213"
+"Drzava","Leto","Stevilo"
+"Belgium",1990,478219
+"Bulgaria",1990,46433
+"Denmark",1990,80837
+"Germany (until 1990 former territory of the FRG)",1990,3040783
+"Ireland",1990,83420
+"Greece",1990,132487
+"Spain",1990,1007014
+"France",1990,2309130
+"Croatia",1990,66214
+"Italy",1990,2395909
+"Cyprus",1990,19532
+"Luxembourg",1990,38648
+"Hungary",1990,143073
+"Malta",1990,8218
+"Netherlands",1990,502671
+"Austria",1990,288636
+"Poland",1990,358055
+"Portugal",1990,212348
+"Finland",1990,139742
+"Sweden",1990,235192
+"United Kingdom",1990,2075982
+"Norway",1990,63668
+"Switzerland",1990,322974
+"Turkey",1990,218059
+"Belgium",1991,46766
+"Bulgaria",1991,31093
+"Denmark",1991,83828
+"Ireland",1991,68533
+"Greece",1991,176862
+"Spain",1991,914061
+"France",1991,2031274
+"Croatia",1991,85813
+"Italy",1991,2217257
+"Cyprus",1991,17681
+"Luxembourg",1991,44055
+"Netherlands",1991,490407
+"Austria",1991,303723
+"Poland",1991,734885
+"Portugal",1991,231176
+"Finland",1991,92979
+"Sweden",1991,191755
+"United Kingdom",1991,1665664
+"Norway",1991,55111
+"Switzerland",1991,310193
+"Belgium",1992,485697
+"Bulgaria",1992,44186
+"Denmark",1992,84170
+"Germany (until 1990 former territory of the FRG)",1992,3929558
+"Estonia",1992,36284
+"Ireland",1992,67861
+"Greece",1992,206652
+"Spain",1992,1008454
+"France",1992,2105700
+"Croatia",1992,31928
+"Italy",1992,2341402
+"Cyprus",1992,18178
+"Luxembourg",1992,37133
+"Hungary",1992,45122
+"Netherlands",1992,492130
+"Austria",1992,320094
+"Poland",1992,471026
+"Portugal",1992,280035
+"Slovenia",1992,31191
+"Finland",1992,68891
+"Sweden",1992,157295
+"United Kingdom",1992,1663846
+"Norway",1992,61648
+"Switzerland",1992,286289
+"Turkey",1992,317044
+"Belgium",1993,392530
+"Bulgaria",1993,83713
+"Denmark",1993,82205
+"Germany (until 1990 former territory of the FRG)",1993,3194204
+"Estonia",1993,53168
+"Ireland",1993,60792
+"Greece",1993,155646
+"Spain",1993,775461
+"France",1993,1721222
+"Croatia",1993,59337
+"Italy",1993,1645162
+"Cyprus",1993,12968
+"Luxembourg",1993,30679
+"Hungary",1993,63058
+"Netherlands",1993,391934
+"Austria",1993,285162
+"Poland",1993,477353
+"Portugal",1993,248462
+"Slovenia",1993,59878
+"Slovakia",1993,41694
+"Finland",1993,56003
+"Sweden",1993,127738
+"United Kingdom",1993,1845714
+"Iceland",1993,5662
+"Norway",1993,63988
+"Switzerland",1993,256917
+"Turkey",1993,441534
+"Belgium",1994,403981
+"Bulgaria",1994,76529
+"Denmark",1994,139251
+"Germany (until 1990 former territory of the FRG)",1994,3209224
+"Estonia",1994,51217
+"Ireland",1994,77773
+"Greece",1994,118088
+"Spain",1994,938971
+"France",1994,1972919
+"Croatia",1994,58499
+"Italy",1994,1610561
+"Cyprus",1994,13358
+"Luxembourg",1994,30124
+"Hungary",1994,45833
+"Netherlands",1994,433913
+"Austria",1994,273663
+"Poland",1994,486600
+"Portugal",1994,243254
+"Slovenia",1994,47217
+"Finland",1994,67434
+"Sweden",1994,159578
+"United Kingdom",1994,1982929
+"Iceland",1994,5570
+"Norway",1994,91336
+"Switzerland",1994,265892
+"Turkey",1994,244289
+"Belgium",1995,370165
+"Bulgaria",1995,56702
+"Denmark",1995,135058
+"Germany (until 1990 former territory of the FRG)",1995,3314061
+"Estonia",1995,44471
+"Ireland",1995,82730
+"Greece",1995,133757
+"Spain",1995,870497
+"France",1995,1930504
+"Croatia",1995,67576
+"Italy",1995,1766101
+"Cyprus",1995,17938
+"Latvia",1995,49322
+"Lithuania",1995,154850
+"Hungary",1995,55970
+"Malta",1995,10102
+"Austria",1995,279610
+"Poland",1995,450769
+"Portugal",1995,228812
+"Slovenia",1995,61700
+"Finland",1995,80145
+"Sweden",1995,175061
+"United Kingdom",1995,1938100
+"Iceland",1995,6931
+"Liechtenstein",1995,2
+"Norway",1995,97880
+"Switzerland",1995,267975
+"Turkey",1995,200658
+"Belgium",1996,408285
+"Bulgaria",1996,69500
+"Denmark",1996,142175
+"Germany (until 1990 former territory of the FRG)",1996,3496320
+"Estonia",1996,35621
+"Ireland",1996,109333
+"Greece",1996,141589
+"Spain",1996,968363
+"France",1996,2132091
+"Croatia",1996,73584
+"Italy",1996,1843366
+"Cyprus",1996,20402
+"Latvia",1996,52112
+"Lithuania",1996,122142
+"Hungary",1996,62660
+"Malta",1996,10624
+"Austria",1996,307671
+"Poland",1996,627349
+"Portugal",1996,268542
+"Slovenia",1996,59358
+"Slovakia",1996,107576
+"Finland",1996,96163
+"Sweden",1996,200154
+"United Kingdom",1996,2105914
+"Iceland",1996,9515
+"Liechtenstein",1996,2
+"Norway",1996,146835
+"Switzerland",1996,272214
+"Turkey",1996,219230
+"Bulgaria",1997,28166
+"Denmark",1997,152869
+"Germany (until 1990 former territory of the FRG)",1997,3528179
+"Estonia",1997,9448
+"Ireland",1997,125818
+"Greece",1997,166778
+"Spain",1997,1091190
+"France",1997,1713030
+"Croatia",1997,109144
+"Italy",1997,2389892
+"Cyprus",1997,20290
+"Latvia",1997,71513
+"Lithuania",1997,173057
+"Hungary",1997,70827
+"Malta",1997,9226
+"Netherlands",1997,478318
+"Austria",1997,275001
+"Poland",1997,722245
+"Portugal",1997,287730
+"Romania",1997,125142
+"Slovenia",1997,64357
+"Slovakia",1997,85551
+"Finland",1997,104963
+"Sweden",1997,258944
+"United Kingdom",1997,2250870
+"Iceland",1997,11734
+"Liechtenstein",1997,2
+"Norway",1997,154654
+"Switzerland",1997,270625
+"Turkey",1997,299108
+"Belgium",1998,463724
+"Bulgaria",1998,70797
+"Denmark",1998,162708
+"Germany (until 1990 former territory of the FRG)",1998,3735987
+"Estonia",1998,8400
+"Ireland",1998,138538
+"Greece",1998,183657
+"Spain",1998,1282970
+"France",1998,1943553
+"Croatia",1998,85893
+"Italy",1998,2437718
+"Cyprus",1998,24856
+"Latvia",1998,57363
+"Lithuania",1998,147105
+"Luxembourg",1998,36353
+"Hungary",1998,101328
+"Malta",1998,10750
+"Netherlands",1998,543110
+"Austria",1998,295865
+"Poland",1998,557783
+"Portugal",1998,323981
+"Romania",1998,105986
+"Slovenia",1998,67133
+"Slovakia",1998,76007
+"Finland",1998,126386
+"Sweden",1998,286671
+"United Kingdom",1998,2362589
+"Iceland",1998,15064
+"Liechtenstein",1998,2
+"Norway",1998,141090
+"Switzerland",1998,295165
+"Turkey",1998,271843
+"Belgium",1999,504203
+"Bulgaria",1999,103459
+"Denmark",1999,144259
+"Germany (until 1990 former territory of the FRG)",1999,3802176
+"Estonia",1999,6864
+"Ireland",1999,170322
+"Greece",1999,268716
+"Spain",1999,1502531
+"France",1999,2148423
+"Croatia",1999,89846
+"Italy",1999,2312309
+"Cyprus",1999,20133
+"Latvia",1999,45861
+"Lithuania",1999,142069
+"Luxembourg",1999,40989
+"Hungary",1999,126085
+"Malta",1999,13341
+"Netherlands",1999,611776
+"Austria",1999,314182
+"Poland",1999,599250
+"Portugal",1999,351575
+"Romania",1999,90047
+"Slovenia",1999,77217
+"Slovakia",1999,58152
+"Finland",1999,137017
+"Sweden",1999,327710
+"United Kingdom",1999,2414660
+"Iceland",1999,17007
+"Liechtenstein",1999,2
+"Norway",1999,123843
+"Switzerland",1999,314691
+"Belgium",2000,531640
+"Bulgaria",2000,98185
+"Denmark",2000,113631
+"Germany (until 1990 former territory of the FRG)",2000,3378343
+"Estonia",2000,10240
+"Ireland",2000,225269
+"Greece",2000,302620
+"Spain",2000,1467160
+"France",2000,2133884
+"Croatia",2000,92759
+"Italy",2000,2359674
+"Cyprus",2000,19056
+"Latvia",2000,35745
+"Lithuania",2000,115808
+"Luxembourg",2000,42304
+"Hungary",2000,130323
+"Malta",2000,13055
+"Netherlands",2000,597623
+"Austria",2000,309427
+"Poland",2000,519407
+"Portugal",2000,340397
+"Slovenia",2000,55120
+"Slovakia",2000,54352
+"Finland",2000,135243
+"Sweden",2000,342965
+"United Kingdom",2000,2432149
+"Iceland",2000,14769
+"Liechtenstein",2000,1937
+"Norway",2000,126978
+"Switzerland",2000,314482
+"Turkey",2000,354013
+"Belgium",2001,499779
+"Bulgaria",2001,117333
+"Denmark",2001,96114
+"Germany (until 1990 former territory of the FRG)",2001,3341718
+"Estonia",2001,12822
+"Ireland",2001,160908
+"Greece",2001,289943
+"Spain",2001,1498899
+"France",2001,2254732
+"Croatia",2001,108484
+"Italy",2001,2379980
+"Cyprus",2001,24533
+"Latvia",2001,37850
+"Lithuania",2001,71328
+"Luxembourg",2001,43164
+"Hungary",2001,137771
+"Malta",2001,10295
+"Netherlands",2001,530287
+"Austria",2001,293528
+"Poland",2001,450095
+"Portugal",2001,302763
+"Slovenia",2001,52316
+"Slovakia",2001,66759
+"Finland",2001,109911
+"Sweden",2001,280280
+"United Kingdom",2001,2663288
+"Iceland",2001,7669
+"Liechtenstein",2001,2065
+"Switzerland",2001,314580
+"Turkey",2001,117196
+"Belgium",2002,472830
+"Bulgaria",2002,121512
+"Denmark",2002,111598
+"Germany (until 1990 former territory of the FRG)",2002,3252898
+"Estonia",2002,14701
+"Ireland",2002,150485
+"Greece",2002,277567
+"Spain",2002,1408426
+"France",2002,2145071
+"Croatia",2002,94989
+"Italy",2002,2224764
+"Cyprus",2002,28101
+"Latvia",2002,40335
+"Lithuania",2002,93305
+"Luxembourg",2002,43677
+"Hungary",2002,160238
+"Malta",2002,10267
+"Netherlands",2002,510744
+"Austria",2002,279493
+"Poland",2002,421167
+"Portugal",2002,267374
+"Slovenia",2002,50859
+"Slovakia",2002,67298
+"Finland",2002,117486
+"Sweden",2002,281446
+"United Kingdom",2002,2756342
+"Iceland",2002,7375
+"Liechtenstein",2002,2074
+"Switzerland",2002,293034
+"Turkey",2002,170191
+"Belgium",2003,463173
+"Bulgaria",2003,143480
+"Czech Republic",2003,144849
+"Germany (until 1990 former territory of the FRG)",2003,3236938
+"Estonia",2003,15824
+"Ireland",2003,142992
+"Greece",2003,272515
+"France",2003,2009246
+"Croatia",2003,104399
+"Italy",2003,2516972
+"Cyprus",2003,29961
+"Latvia",2003,50290
+"Lithuania",2003,118263
+"Luxembourg",2003,43765
+"Hungary",2003,190107
+"Netherlands",2003,488977
+"Austria",2003,300121
+"Poland",2003,274392
+"Slovenia",2003,59881
+"Slovakia",2003,71954
+"Finland",2003,148020
+"Sweden",2003,293035
+"United Kingdom",2003,2720096
+"Iceland",2003,10833
+"Liechtenstein",2003,1770
+"Switzerland",2003,269711
+"Turkey",2003,176217
+"Belgium",2004,489346
+"Bulgaria",2004,150803
+"Czech Republic",2004,123579
+"Germany (until 1990 former territory of the FRG)",2004,3266826
+"Estonia",2004,16514
+"Ireland",2004,149635
+"Greece",2004,317508
+"France",2004,2013709
+"Croatia",2004,99863
+"Italy",2004,2743769
+"Cyprus",2004,43842
+"Latvia",2004,57474
+"Lithuania",2004,134612
+"Luxembourg",2004,48273
+"Hungary",2004,188488
+"Netherlands",2004,483885
+"Austria",2004,311292
+"Poland",2004,833021
+"Romania",2004,149290
+"Slovenia",2004,62697
+"Slovakia",2004,71954
+"Finland",2004,143160
+"Sweden",2004,297405
+"United Kingdom",2004,2668449
+"Iceland",2004,13927
+"Liechtenstein",2004,1790
+"Norway",2004,145538
+"Switzerland",2004,267476
+"Turkey",2004,432728
+"Belgium",2005,484915
+"Bulgaria",2005,168102
+"Czech Republic",2005,125166
+"Germany (until 1990 former territory of the FRG)",2005,3342122
+"Ireland",2005,166270
+"Greece",2005,302613
+"Croatia",2005,101916
+"Italy",2005,2441978
+"Cyprus",2005,38676
+"Latvia",2005,69704
+"Lithuania",2005,173644
+"Luxembourg",2005,48517
+"Malta",2005,10058
+"Netherlands",2005,465196
+"Poland",2005,979082
+"Romania",2005,179531
+"Slovenia",2005,60531
+"Sweden",2005,297050
+"Iceland",2005,22141
+"Switzerland",2005,260682
+"Turkey",2005,406807
+"Belgium",2006,530941
+"Bulgaria",2006,182095
+"Czech Republic",2006,120370
+"Denmark",2006,131605
+"Germany (until 1990 former territory of the FRG)",2006,3467961
+"Estonia",2006,25372
+"Ireland",2006,173273
+"Greece",2006,304700
+"Spain",2006,1660627
+"France",2006,2000549
+"Croatia",2006,114680
+"Italy",2006,2541570
+"Cyprus",2006,37192
+"Latvia",2006,97399
+"Lithuania",2006,185271
+"Luxembourg",2006,50837
+"Hungary",2006,151670
+"Malta",2006,9966
+"Netherlands",2006,483999
+"Austria",2006,308594
+"Poland",2006,923783
+"Romania",2006,312515
+"Slovenia",2006,59885
+"Finland",2006,146201
+"Sweden",2006,300502
+"Liechtenstein",2006,1890
+"Norway",2006,142572
+"Switzerland",2006,269700
+"Turkey",2006,396542
+"Belgium",2007,529606
+"Bulgaria",2007,348887
+"Czech Republic",2007,129443
+"Denmark",2007,252183
+"Germany (until 1990 former territory of the FRG)",2007,3148163
+"Estonia",2007,30916
+"Ireland",2007,193915
+"Greece",2007,317879
+"Spain",2007,1633806
+"France",2007,2064543
+"Croatia",2007,108015
+"Italy",2007,2514905
+"Cyprus",2007,50908
+"Latvia",2007,107003
+"Lithuania",2007,220236
+"Luxembourg",2007,51332
+"Hungary",2007,136032
+"Malta",2007,9574
+"Netherlands",2007,505779
+"Austria",2007,298182
+"Poland",2007,1128684
+"Romania",2007,436349
+"Slovenia",2007,67791
+"Slovakia",2007,146292
+"Finland",2007,126022
+"Sweden",2007,321705
+"Liechtenstein",2007,1990
+"Norway",2007,162970
+"Switzerland",2007,284000
+"Turkey",2007,353495
+"Belgium",2008,540542
+"Bulgaria",2008,351433
+"Czech Republic",2008,141954
+"Denmark",2008,184323
+"Germany (until 1990 former territory of the FRG)",2008,3090040
+"Estonia",2008,24590
+"Ireland",2008,158350
+"Greece",2008,295853
+"Spain",2008,1188485
+"France",2008,2050283
+"Croatia",2008,96712
+"Italy",2008,2193822
+"Cyprus",2008,51410
+"Latvia",2008,54759
+"Lithuania",2008,191768
+"Luxembourg",2008,52359
+"Hungary",2008,176678
+"Malta",2008,9542
+"Netherlands",2008,500098
+"Austria",2008,293697
+"Poland",2008,1280633
+"Romania",2008,586476
+"Slovenia",2008,71037
+"Slovakia",2008,151814
+"Finland",2008,140216
+"Sweden",2008,257806
+"United Kingdom",2008,2112000
+"Liechtenstein",2008,2005
+"Norway",2008,138241
+"Switzerland",2008,288000
+"Turkey",2008,353168
+"Belgium",2009,479920
+"Bulgaria",2009,201304
+"Czech Republic",2009,160614
+"Germany (until 1990 former territory of the FRG)",2009,3807175
+"Estonia",2009,9948
+"Ireland",2009,59358
+"Greece",2009,244539
+"Spain",2009,971177
+"France",2009,2269011
+"Croatia",2009,53569
+"Italy",2009,2176940
+"Cyprus",2009,37494
+"Latvia",2009,17288
+"Lithuania",2009,136803
+"Luxembourg",2009,47264
+"Malta",2009,15816
+"Netherlands",2009,387408
+"Austria",2009,319403
+"Poland",2009,864295
+"Portugal",2009,181132
+"Romania",2009,328880
+"Slovenia",2009,57391
+"Slovakia",2009,148370
+"Finland",2009,90923
+"Sweden",2009,228519
+"United Kingdom",2009,1968000
+"Liechtenstein",2009,1620
+"Norway",2009,125903
+"Switzerland",2009,266500
+"Turkey",2009,357986
+"Belgium",2010,551661
+"Bulgaria",2010,186092
+"Czech Republic",2010,168372
+"Germany (until 1990 former territory of the FRG)",2010,2916260
+"Estonia",2010,10294
+"Ireland",2010,105343
+"Greece",2010,153847
+"Spain",2010,1000010
+"France",2010,2210186
+"Croatia",2010,46437
+"Italy",2010,1971830
+"Cyprus",2010,32680
+"Latvia",2010,26656
+"Lithuania",2010,161266
+"Luxembourg",2010,49726
+"Hungary",2010,61324
+"Malta",2010,13605
+"Netherlands",2010,482633
+"Austria",2010,328563
+"Poland",2010,873098
+"Portugal",2010,248813
+"Romania",2010,309952
+"Slovenia",2010,60777
+"Slovakia",2010,126663
+"Finland",2010,112418
+"Sweden",2010,308718
+"United Kingdom",2010,1996324
+"Liechtenstein",2010,1782
+"Norway",2010,159374
+"Switzerland",2010,296600
+"Turkey",2010,485619
+"Belgium",2011,577382
+"Bulgaria",2011,191430
+"Czech Republic",2011,172787
+"Germany (until 1990 former territory of the FRG)",2011,3173634
+"Estonia",2011,17058
+"Ireland",2011,104022
+"Greece",2011,107737
+"Spain",2011,817688
+"France",2011,2160928
+"Croatia",2011,48883
+"Italy",2011,1764592
+"Cyprus",2011,27929
+"Latvia",2011,43468
+"Lithuania",2011,132117
+"Luxembourg",2011,49881
+"Hungary",2011,76528
+"Malta",2011,15875
+"Netherlands",2011,555846
+"Austria",2011,356145
+"Poland",2011,928457
+"Portugal",2011,177183
+"Romania",2011,176555
+"Slovenia",2011,59813
+"Slovakia",2011,130772
+"Finland",2011,126651
+"Sweden",2011,326615
+"United Kingdom",2011,1907411
+"Liechtenstein",2011,2029
+"Norway",2011,168552
+"Switzerland",2011,328000
+"Turkey",2011,602248
+"Belgium",2012,490711
+"Bulgaria",2012,196614
+"Czech Republic",2012,174311
+"Germany (until 1990 former territory of the FRG)",2012,3082504
+"Estonia",2012,19422
+"Ireland",2012,77506
+"Greece",2012,64301
+"Spain",2012,710638
+"France",2012,1857013
+"Croatia",2012,40825
+"Italy",2012,1403043
+"Cyprus",2012,20556
+"Latvia",2012,50135
+"Lithuania",2012,153024
+"Luxembourg",2012,50398
+"Hungary",2012,106671
+"Malta",2012,13037
+"Netherlands",2012,502479
+"Austria",2012,336010
+"Poland",2012,908906
+"Portugal",2012,110002
+"Romania",2012,242025
+"Slovenia",2012,49700
+"Slovakia",2012,130818
+"Finland",2012,111664
+"Sweden",2012,301316
+"Liechtenstein",2012,2108
+"Norway",2012,171828
+"Switzerland",2012,334000
+"Turkey",2012,565791
+"Belgium",2013,490369
+"Bulgaria",2013,199963
+"Czech Republic",2013,164627
+"Germany (until 1990 former territory of the FRG)",2013,2952431
+"Estonia",2013,19690
+"Ireland",2013,74960
+"Greece",2013,64932
+"Spain",2013,742305
+"France",2013,1756953
+"Croatia",2013,46563
+"Italy",2013,1311334
+"Cyprus",2013,14771
+"Latvia",2013,55808
+"Lithuania",2013,155855
+"Luxembourg",2013,46624
+"Hungary",2013,126937
+"Malta",2013,13094
+"Netherlands",2013,416717
+"Austria",2013,319035
+"Poland",2013,987809
+"Romania",2013,279740
+"Slovenia",2013,51968
+"Slovakia",2013,113876
+"Finland",2013,103450
+"Sweden",2013,292162
+"Liechtenstein",2013,1920
+"Norway",2013,176019
+"Switzerland",2013,310200
+"Turkey",2013,654905
+"Belgium",2014,487711
+"Bulgaria",2014,211033
+"Czech Republic",2014,192923
+"Germany (until 1990 former territory of the FRG)",2014,3036773
+"Estonia",2014,21128
+"Ireland",2014,84136
+"Greece",2014,84445
+"Spain",2014,890125
+"France",2014,1765855
+"Croatia",2014,68522
+"Cyprus",2014,17933
+"Latvia",2014,13173
+"Lithuania",2014,136098
+"Luxembourg",2014,49793
+"Hungary",2014,164420
+"Malta",2014,15439
+"Austria",2014,303318
+"Poland",2014,1047598
+"Portugal",2014,199288
+"Slovenia",2014,54086
+"Slovakia",2014,125813
+"Finland",2014,106235
+"Sweden",2014,324030
+"Liechtenstein",2014,1800
+"Norway",2014,172042
+"Switzerland",2014,304100
+"Turkey",2014,585814
+"Belgium",2015,506284
+"Czech Republic",2015,229731
+"Germany (until 1990 former territory of the FRG)",2015,3206042
+"Estonia",2015,21064
+"Ireland",2015,129959
+"Greece",2015,96151
+"Spain",2015,1094117
+"France",2015,1886229
+"Croatia",2015,74181
+"Cyprus",2015,21462
+"Latvia",2015,14291
+"Lithuania",2015,131606
+"Luxembourg",2015,46473
+"Hungary",2015,199906
+"Malta",2015,16803
+"Austria",2015,308555
+"Poland",2015,1145506
+"Romania",2015,332223
+"Slovenia",2015,60668
+"Slovakia",2015,137751
+"Finland",2015,108819
+"Sweden",2015,361908
+"United Kingdom",2015,2602146
+"Liechtenstein",2015,2049
+"Norway",2015,176336
+"Switzerland",2015,327100
+"Turkey",2015,746395

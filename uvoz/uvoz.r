@@ -619,11 +619,12 @@ emisije <- uvozi.emisije()
 
 uvozi.registracije <- function() {
   registracije <- read_csv("podatki/registracije.csv",locale = locale(encoding = "Windows-1250"))
-  stolpci <- c("Drzava", "Leto","Teza.registriranega","Stevilo")
-  colnames(registracije) <- stolpci
-  registracije <- registracije %>% filter(Stevilo != ":", 
-                                          Drzava != "Former Yugoslav Republic of Macedonia, the")
   registracije <- registracije %>% select(Drzava, Leto, Stevilo)
+  registracije <- registracije %>% filter(Stevilo != ":")
+  sl <- locale("sl", decimal_mark = ",", grouping_mark = ".")
+  for (col in c("Leto", "Stevilo")) {
+    registracije[[col]] <- parse_number(registracije[[col]], na = "-", locale = sl)
+  }
   return(registracije)
 }
 registracije <- uvozi.registracije()
