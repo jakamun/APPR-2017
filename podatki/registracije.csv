@@ -2,7 +2,7 @@
 "Belgium",1990,478219
 "Bulgaria",1990,46433
 "Denmark",1990,80837
-"Germany (until 1990 former territory of the FRG)",1990,3040783
+"Germany",1990,3040783
 "Ireland",1990,83420
 "Greece",1990,132487
 "Spain",1990,1007014
@@ -46,7 +46,7 @@
 "Belgium",1992,485697
 "Bulgaria",1992,44186
 "Denmark",1992,84170
-"Germany (until 1990 former territory of the FRG)",1992,3929558
+"Germany",1992,3929558
 "Estonia",1992,36284
 "Ireland",1992,67861
 "Greece",1992,206652
@@ -71,7 +71,7 @@
 "Belgium",1993,392530
 "Bulgaria",1993,83713
 "Denmark",1993,82205
-"Germany (until 1990 former territory of the FRG)",1993,3194204
+"Germany",1993,3194204
 "Estonia",1993,53168
 "Ireland",1993,60792
 "Greece",1993,155646
@@ -98,7 +98,7 @@
 "Belgium",1994,403981
 "Bulgaria",1994,76529
 "Denmark",1994,139251
-"Germany (until 1990 former territory of the FRG)",1994,3209224
+"Germany",1994,3209224
 "Estonia",1994,51217
 "Ireland",1994,77773
 "Greece",1994,118088
@@ -124,7 +124,7 @@
 "Belgium",1995,370165
 "Bulgaria",1995,56702
 "Denmark",1995,135058
-"Germany (until 1990 former territory of the FRG)",1995,3314061
+"Germany",1995,3314061
 "Estonia",1995,44471
 "Ireland",1995,82730
 "Greece",1995,133757
@@ -152,7 +152,7 @@
 "Belgium",1996,408285
 "Bulgaria",1996,69500
 "Denmark",1996,142175
-"Germany (until 1990 former territory of the FRG)",1996,3496320
+"Germany",1996,3496320
 "Estonia",1996,35621
 "Ireland",1996,109333
 "Greece",1996,141589
@@ -180,7 +180,7 @@
 "Turkey",1996,219230
 "Bulgaria",1997,28166
 "Denmark",1997,152869
-"Germany (until 1990 former territory of the FRG)",1997,3528179
+"Germany",1997,3528179
 "Estonia",1997,9448
 "Ireland",1997,125818
 "Greece",1997,166778
@@ -211,7 +211,7 @@
 "Belgium",1998,463724
 "Bulgaria",1998,70797
 "Denmark",1998,162708
-"Germany (until 1990 former territory of the FRG)",1998,3735987
+"Germany",1998,3735987
 "Estonia",1998,8400
 "Ireland",1998,138538
 "Greece",1998,183657
@@ -243,7 +243,7 @@
 "Belgium",1999,504203
 "Bulgaria",1999,103459
 "Denmark",1999,144259
-"Germany (until 1990 former territory of the FRG)",1999,3802176
+"Germany",1999,3802176
 "Estonia",1999,6864
 "Ireland",1999,170322
 "Greece",1999,268716
@@ -274,7 +274,7 @@
 "Belgium",2000,531640
 "Bulgaria",2000,98185
 "Denmark",2000,113631
-"Germany (until 1990 former territory of the FRG)",2000,3378343
+"Germany",2000,3378343
 "Estonia",2000,10240
 "Ireland",2000,225269
 "Greece",2000,302620
@@ -305,7 +305,7 @@
 "Belgium",2001,499779
 "Bulgaria",2001,117333
 "Denmark",2001,96114
-"Germany (until 1990 former territory of the FRG)",2001,3341718
+"Germany",2001,3341718
 "Estonia",2001,12822
 "Ireland",2001,160908
 "Greece",2001,289943
@@ -335,7 +335,7 @@
 "Belgium",2002,472830
 "Bulgaria",2002,121512
 "Denmark",2002,111598
-"Germany (until 1990 former territory of the FRG)",2002,3252898
+"Germany",2002,3252898
 "Estonia",2002,14701
 "Ireland",2002,150485
 "Greece",2002,277567
@@ -365,7 +365,7 @@
 "Belgium",2003,463173
 "Bulgaria",2003,143480
 "Czech Republic",2003,144849
-"Germany (until 1990 former territory of the FRG)",2003,3236938
+"Germany",2003,3236938
 "Estonia",2003,15824
 "Ireland",2003,142992
 "Greece",2003,272515
@@ -392,7 +392,7 @@
 "Belgium",2004,489346
 "Bulgaria",2004,150803
 "Czech Republic",2004,123579
-"Germany (until 1990 former territory of the FRG)",2004,3266826
+"Germany",2004,3266826
 "Estonia",2004,16514
 "Ireland",2004,149635
 "Greece",2004,317508
@@ -421,7 +421,7 @@
 "Belgium",2005,484915
 "Bulgaria",2005,168102
 "Czech Republic",2005,125166
-"Germany (until 1990 former territory of the FRG)",2005,3342122
+"Germany",2005,3342122
 "Ireland",2005,166270
 "Greece",2005,302613
 "Croatia",2005,101916
@@ -443,7 +443,7 @@
 "Bulgaria",2006,182095
 "Czech Republic",2006,120370
 "Denmark",2006,131605
-"Germany (until 1990 former territory of the FRG)",2006,3467961
+"Germany",2006,3467961
 "Estonia",2006,25372
 "Ireland",2006,173273
 "Greece",2006,304700
@@ -472,7 +472,7 @@
 "Bulgaria",2007,348887
 "Czech Republic",2007,129443
 "Denmark",2007,252183
-"Germany (until 1990 former territory of the FRG)",2007,3148163
+"Germany",2007,3148163
 "Estonia",2007,30916
 "Ireland",2007,193915
 "Greece",2007,317879
@@ -502,7 +502,7 @@
 "Bulgaria",2008,351433
 "Czech Republic",2008,141954
 "Denmark",2008,184323
-"Germany (until 1990 former territory of the FRG)",2008,3090040
+"Germany",2008,3090040
 "Estonia",2008,24590
 "Ireland",2008,158350
 "Greece",2008,295853
@@ -532,7 +532,7 @@
 "Belgium",2009,479920
 "Bulgaria",2009,201304
 "Czech Republic",2009,160614
-"Germany (until 1990 former territory of the FRG)",2009,3807175
+"Germany",2009,3807175
 "Estonia",2009,9948
 "Ireland",2009,59358
 "Greece",2009,244539
@@ -562,7 +562,7 @@
 "Belgium",2010,551661
 "Bulgaria",2010,186092
 "Czech Republic",2010,168372
-"Germany (until 1990 former territory of the FRG)",2010,2916260
+"Germany",2010,2916260
 "Estonia",2010,10294
 "Ireland",2010,105343
 "Greece",2010,153847
@@ -593,7 +593,7 @@
 "Belgium",2011,577382
 "Bulgaria",2011,191430
 "Czech Republic",2011,172787
-"Germany (until 1990 former territory of the FRG)",2011,3173634
+"Germany",2011,3173634
 "Estonia",2011,17058
 "Ireland",2011,104022
 "Greece",2011,107737
@@ -624,7 +624,7 @@
 "Belgium",2012,490711
 "Bulgaria",2012,196614
 "Czech Republic",2012,174311
-"Germany (until 1990 former territory of the FRG)",2012,3082504
+"Germany",2012,3082504
 "Estonia",2012,19422
 "Ireland",2012,77506
 "Greece",2012,64301
@@ -654,7 +654,7 @@
 "Belgium",2013,490369
 "Bulgaria",2013,199963
 "Czech Republic",2013,164627
-"Germany (until 1990 former territory of the FRG)",2013,2952431
+"Germany",2013,2952431
 "Estonia",2013,19690
 "Ireland",2013,74960
 "Greece",2013,64932
@@ -683,7 +683,7 @@
 "Belgium",2014,487711
 "Bulgaria",2014,211033
 "Czech Republic",2014,192923
-"Germany (until 1990 former territory of the FRG)",2014,3036773
+"Germany",2014,3036773
 "Estonia",2014,21128
 "Ireland",2014,84136
 "Greece",2014,84445
@@ -709,7 +709,7 @@
 "Turkey",2014,585814
 "Belgium",2015,506284
 "Czech Republic",2015,229731
-"Germany (until 1990 former territory of the FRG)",2015,3206042
+"Germany",2015,3206042
 "Estonia",2015,21064
 "Ireland",2015,129959
 "Greece",2015,96151

@@ -625,6 +625,13 @@ uvozi.registracije <- function() {
   for (col in c("Leto", "Stevilo")) {
     registracije[[col]] <- parse_number(registracije[[col]], na = "-", locale = sl)
   }
+  drzava <- registracije$Drzava
+  i <- 1
+  while (i <= length(drzava)) {
+    if (drzava[i] == "Germany (until 1990 former territory of the FRG)") {drzava[i] <- "Germany"}
+    i <- i + 1
+  }
+  registracije$Drzava <- drzava
   return(registracije)
 }
 registracije <- uvozi.registracije()
