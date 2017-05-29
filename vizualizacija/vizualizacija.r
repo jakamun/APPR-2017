@@ -2,11 +2,13 @@
 library(dplyr)
 library(gsubfn)
 library(ggplot2)
-library(ggvis)
+#library(ggvis)
 
 # Grafi
 
-
+registracije <- read_csv("podatki/registracije.csv",locale = locale(encoding = "Windows-1250"))
+a <- ggplot(filter(registracije, Drzava == c("Germany", "Slovenia"))) + aes(x=Leto, y=Stevilo, color = Drzava) + geom_line()
+print(a)
 
 
 
